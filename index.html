@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHINKAFIT — Workout. Improve. Repeat.</title>
+  <meta name="description" content="SHINKAFIT is a lightweight workout library, routine builder, and timer for people who train bodyweight and general fitness — free to use, works offline." />
+  <meta name="theme-color" content="#14161a" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-row">
+      <a href="/" class="wordmark">SHINKA<span>FIT</span></a>
+
+      <nav class="nav-links" id="primary-nav">
+        <a href="workouts.html">Workout Library</a>
+        <a href="routines.html">Routines</a>
+        <a href="timer.html">Timer</a>
+        <a href="progress.html">Progress</a>
+        <a href="premium.html">Premium</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-ghost">Log in</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <h1 class="hero-headline">Every rep is a small version upgrade.</h1>
+        <p class="hero-motto">WORKOUT. IMPROVE. REPEAT.</p>
+        <p class="hero-copy">
+          A free exercise library, routine builder, and workout timer built for
+          people who train with little or no equipment. No accounts required to start —
+          your favorites and progress save right on your device.
+        </p>
+        <div class="hero-actions">
+          <a href="workouts.html" class="btn btn-primary">Browse the exercise library</a>
+          <a href="signup.html" class="btn btn-ghost">Create a free account</a>
+        </div>
+      </div>
+
+      <div class="ascent" role="img" aria-label="Five ascending bars, representing steady improvement over time">
+        <div class="ascent-bar"></div>
+        <div class="ascent-bar"></div>
+        <div class="ascent-bar"></div>
+        <div class="ascent-bar"></div>
+        <div class="ascent-bar"></div>
+      </div>
+    </section>
+
+    <section class="cycle container">
+      <h2>The whole app is one loop</h2>
+      <div class="cycle-grid">
+        <article class="cycle-step">
+          <p class="cycle-index">01</p>
+          <h3>Workout</h3>
+          <p>Pick an exercise or a full routine — daily, weekly, or a longer program — and follow along with the built-in timer.</p>
+        </article>
+        <article class="cycle-step">
+          <p class="cycle-index">02</p>
+          <h3>Improve</h3>
+          <p>Every session logs to your progress page: streaks, completed workouts, and which exercises you're leaning on.</p>
+        </article>
+        <article class="cycle-step">
+          <p class="cycle-index">03</p>
+          <h3>Repeat</h3>
+          <p>Reminders bring you back on your schedule. Rest days are part of the plan, not a slip in it.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <span>SHINKAFIT — shinkafit.app</span>
+    <span>© <span id="year"></span> SHINKAFIT. Not medical advice.</span>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
