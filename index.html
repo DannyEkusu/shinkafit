@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SHINKAFIT — Free Workouts, Routines & Timer. Workout. Improve. Repeat.</title>
+<meta name="description" content="Free workout and exercise library with a built-in timer, routines and progress tracking. Works offline. No paywall on core features.">
+<link rel="canonical" href="https://dannyekusu.github.io/shinkafit/index.html">
+<meta name="theme-color" content="#101317">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icons/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SHINKAFIT">
+<meta property="og:title" content="SHINKAFIT — Free Workouts, Routines & Timer. Workout. Improve. Repeat.">
+<meta property="og:description" content="Free workout and exercise library with a built-in timer, routines and progress tracking. Works offline. No paywall on core features.">
+<meta property="og:url" content="https://dannyekusu.github.io/shinkafit/index.html">
+<meta property="og:image" content="https://dannyekusu.github.io/shinkafit/assets/icons/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script>(function(){try{var d=JSON.parse(localStorage.getItem('sf:device')||'{}');var r=document.documentElement;r.setAttribute('data-theme',(d.theme==='light'||d.theme==='dark')?d.theme:'system');if(d.motion==='reduce')r.setAttribute('data-motion','reduce');}catch(e){}})();</script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html"><svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-logo"></use></svg>SHINKAFIT</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="workouts.html">Workouts</a>
+      <a href="exercises.html">Exercises</a>
+      <a href="routines.html">Routines</a>
+      <a href="timer.html">Timer</a>
+      <a href="progress.html">Progress</a>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="icon-btn" data-search-btn aria-label="Search SHINKAFIT"><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg></button>
+      <button type="button" class="icon-btn" id="theme-toggle" aria-label="Change theme"><svg class="icon" aria-hidden="true"><use href="#i-monitor"></use></svg></button>
+      <div id="account-slot" class="row"></div>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      <p class="hero__motto">WORKOUT. IMPROVE. REPEAT.</p>
+      <h1>Train for free. <br>Get a little better every day.</h1>
+      <p class="lead">SHINKAFIT is a free workout library, timer and planner that works right in your browser &mdash; no app store, no paywall on core features, and it keeps working after you install it, even with no signal.</p>
+      <div class="btn-row">
+        <a class="btn btn--lg" href="workouts.html"><svg class="icon" aria-hidden="true"><use href="#i-play"></use></svg>Start a workout</a>
+        <a class="btn btn--secondary btn--lg" href="exercises.html">Explore exercises</a>
+      </div>
+      <div class="btn-row" style="margin-top:1rem">
+        <button type="button" class="btn btn--ghost btn--sm" data-install-btn hidden><svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>Install SHINKAFIT</button>
+      </div>
+    </div>
+    <div id="today-card" class="today" aria-label="Today's workout">
+      <div class="skeleton" style="min-height:16rem"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="section__head"><h2>Featured workouts</h2><a href="workouts.html">Browse all workouts <svg class="icon" aria-hidden="true"><use href="#i-chevronRight"></use></svg></a></div>
+  <div id="featured-workouts" class="card-grid"><div class="skeleton"></div>
+<div class="skeleton"></div>
+<div class="skeleton"></div></div>
+</section>
+
+<section class="section container section--tight">
+  <div class="section__head"><h2>Browse by category</h2></div>
+  <div id="category-tiles" class="tiles"><div class="skeleton" style="min-height:56px"></div>
+<div class="skeleton" style="min-height:56px"></div>
+<div class="skeleton" style="min-height:56px"></div>
+<div class="skeleton" style="min-height:56px"></div>
+<div class="skeleton" style="min-height:56px"></div>
+<div class="skeleton" style="min-height:56px"></div></div>
+</section>
+
+<section class="section container">
+  <div class="section__head"><h2>Pick your level</h2></div>
+  <div class="levels">
+    <div class="level" data-level="Beginner"><h3>Beginner</h3><p>New to training or coming back after a break. Learn the core movement patterns with full guidance and beginner-friendly options.</p><a class="btn btn--secondary btn--sm" href="workouts.html?difficulty=Beginner">Beginner workouts</a></div>
+    <div class="level" data-level="Intermediate"><h3>Intermediate</h3><p>Comfortable with the basics and ready for more volume, tempo work, and a wider range of equipment.</p><a class="btn btn--secondary btn--sm" href="workouts.html?difficulty=Intermediate">Intermediate workouts</a></div>
+    <div class="level" data-level="Advanced"><h3>Advanced</h3><p>Strong foundation and looking for calisthenics skills, power work and demanding conditioning.</p><a class="btn btn--secondary btn--sm" href="workouts.html?difficulty=Advanced">Advanced workouts</a></div>
+  </div>
+</section>
+
+<section class="section container section--tight">
+  <div class="section__head"><h2>Your progress</h2></div>
+  <div id="progress-preview" class="panel"><div class="skeleton" style="min-height:6rem"></div></div>
+</section>
+
+<section class="section container">
+  <div class="section__head"><h2>The SHINKAFIT loop</h2></div>
+  <div class="loop">
+    <div class="loop__item"><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg><div><h3>Find a workout</h3><p>Search or filter by difficulty, equipment, goal and time. Or let us suggest today's session.</p></div></div>
+    <div class="loop__item"><svg class="icon" aria-hidden="true"><use href="#i-timer"></use></svg><div><h3>Train with the timer</h3><p>Built-in work and rest intervals keep you moving, with sound cues and no backend required.</p></div></div>
+    <div class="loop__item"><svg class="icon" aria-hidden="true"><use href="#i-barChart"></use></svg><div><h3>Track and repeat</h3><p>Every session is logged automatically so you can see your streak and history build up.</p></div></div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="section__head"><h2>Why SHINKAFIT</h2></div>
+  <div class="benefits">
+    <div class="benefit"><svg class="icon" aria-hidden="true"><use href="#i-shield"></use></svg><h3>Free core features</h3><p>Exercise and workout libraries, the timer, routines and progress tracking cost nothing.</p></div>
+    <div class="benefit"><svg class="icon" aria-hidden="true"><use href="#i-wifiOff"></use></svg><h3>Works offline</h3><p>Install it once and keep training with patchy or no internet connection.</p></div>
+    <div class="benefit"><svg class="icon" aria-hidden="true"><use href="#i-lock"></use></svg><h3>Your data, protected</h3><p>Account data is private to you and secured with row-level security on the backend.</p></div>
+    <div class="benefit"><svg class="icon" aria-hidden="true"><use href="#i-target"></use></svg><h3>Built for every level</h3><p>From your first knee push-up to archer push-ups and pistol squats.</p></div>
+  </div>
+</section>
+
+<section class="container section--tight">
+  <div class="cta-band">
+    <h2>Ready to start?</h2>
+    <p class="lead">No account required to train. Sign up later if you want your progress to follow you across devices.</p>
+    <div class="btn-row"><a class="btn btn--lg" href="workouts.html">Browse workouts</a><a class="btn btn--secondary btn--lg" href="signup.html">Create a free account</a></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div>
+      <h2>SHINKAFIT</h2>
+      <p class="muted">WORKOUT. IMPROVE. REPEAT.<br>Free workouts, exercises and routines. No fees for the core app.</p>
+      <p class="disclaimer">SHINKAFIT provides general fitness information and is not medical advice. Talk to a healthcare professional before starting a new exercise program, especially if you are pregnant, injured, or have a health condition. Stop immediately and seek medical care if you feel chest pain, dizziness, or sharp joint pain.</p>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="exercises.html">Exercises</a></li>
+        <li><a href="routines.html">Routines</a></li>
+        <li><a href="timer.html">Timer</a></li>
+        <li><a href="premium.html">Premium</a></li>
+      </ul>
+      <h2 style="margin-top:1rem">Account</h2>
+      <ul>
+        <li><a href="login.html">Log in</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="privacy.html">Privacy &amp; data</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <p class="disclaimer">&copy; <span id="year">2026</span> SHINKAFIT by Danny Ekusu. Built with HTML, CSS and vanilla JavaScript.</p>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<nav class="bottom-nav" aria-label="Primary">
+  <a href="index.html"><svg class="icon" aria-hidden="true"><use href="#i-home"></use></svg>Home</a>
+  <a href="workouts.html"><svg class="icon" aria-hidden="true"><use href="#i-dumbbell"></use></svg>Workouts</a>
+  <a href="exercises.html"><svg class="icon" aria-hidden="true"><use href="#i-list"></use></svg>Exercises</a>
+  <a href="timer.html"><svg class="icon" aria-hidden="true"><use href="#i-timer"></use></svg>Timer</a>
+  <a href="progress.html"><svg class="icon" aria-hidden="true"><use href="#i-barChart"></use></svg>Progress</a>
+</nav>
+<script type="module" src="js/app.js"></script>
+<script type="module" src="js/home.js"></script>
+</body>
+</html>
