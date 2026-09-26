@@ -1,11 +1,27 @@
 import * as api from './api.js';
 import { mountLibrary } from './filters.js';
 import { EXERCISE_SPEC } from './search.js';
-import { el, icon, levelBadge, tagList } from './ui.js';
+import { el, icon, levelBadge, tagList, errorState, clear } from './ui.js';
 import { favoriteButton } from './favorites.js';
 import { track } from './analytics.js';
 
-const { exercises, meta } = await api.getCatalog();
+const mountEl = document.getElementById('library');
+
+/* Load exercises.json directly (not api.getCatalog(), which also loads workouts.json and
+ * routines.json). This page only ever needs { exercises, meta } from exercises.json itself,
+ * so it must not fail to render just because an unrelated file has a problem. */
+let exercises, meta;
+try {
+  ({ exercises, meta } = await api.loadExercises());
+} catch (err) {
+  console.error('Failed to load exercises.json', err);
+  clear(mountEl).append(errorState({
+    title: 'Could not load the exercise library',
+    text: 'The exercise data failed to load. Check your connection and try again — if this keeps happening, the file may be missing or blocked.',
+    onRetry: () => location.reload(),
+  }));
+  throw err;
+}
 
 function exCard(e) {
   const link = el('a', { class: 'card__link', href: `exercise.html?id=${e.id}` }, el('h3', null, e.name));
@@ -17,7 +33,7 @@ function exCard(e) {
 }
 
 mountLibrary({
-  mount: document.getElementById('library'),
+  mount: mountEl,
   items: exercises,
   groups: [
     { key: 'difficulty', label: 'Difficulty', options: meta.difficulty, match: (e, sel) => sel.includes(e.difficulty) },
