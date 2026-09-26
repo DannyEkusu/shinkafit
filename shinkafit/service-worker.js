@@ -11,7 +11,7 @@
  *  - The admin dashboard is intentionally NOT precached: it needs live data and sits
  *    behind login, so there is little value in an offline copy. */
 
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = `shinkafit-${VERSION}`;
 
 const APP_SHELL = [

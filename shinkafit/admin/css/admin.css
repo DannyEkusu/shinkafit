@@ -1,0 +1,10 @@
+/* Admin-only additions on top of the main design system (loaded via ../css/*.css) */
+.admin-header { display: flex; align-items: center; gap: var(--s3); padding-block: var(--s3); border-bottom: 1px solid var(--line); margin-bottom: var(--s5); }
+.admin-header h1 { margin: 0; font-size: var(--fs-lg); }
+.admin-header .badge { margin-left: var(--s2); }
+.admin-header .row { margin-left: auto; }
+.gate { min-height: 70vh; display: grid; place-items: center; text-align: center; padding: var(--s6) var(--s4); }
+.gate .panel { max-width: 28rem; }
+.admin-grid { display: grid; gap: var(--s5); grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); margin-bottom: var(--s5); }
+.chart-legend { display: flex; gap: var(--s4); font-size: var(--fs-xs); color: var(--muted); margin-top: var(--s2); flex-wrap: wrap; }
+.chart-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
