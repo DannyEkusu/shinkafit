@@ -62,7 +62,7 @@ function scoreToken(t, ix) {
 }
 
 export const EXERCISE_SPEC = { name: 'name', aliases: 'aliases', keywords: ['tags', 'muscleGroups', 'equipment', 'goals', 'type', 'difficulty'], text: ['description'] };
-export const WORKOUT_SPEC = { name: 'name', aliases: 'tags', keywords: ['tags', 'muscleGroups', 'equipment', 'goal', 'type', 'difficulty', 'durationBucket'], text: ['description'] };
+export const WORKOUT_SPEC = { name: 'name', aliases: 'tags', keywords: ['tags', 'muscleGroups', 'equipment', 'goal', 'type', 'difficulty', 'durationBucket'], text: ['description', 'searchExercises'] };
 export const ROUTINE_SPEC = { name: 'name', aliases: 'tags', keywords: ['level', 'goal', 'equipment', 'timeBucket'], text: ['description'] };
 
 /* returns [{item, score}] sorted by score (best first) */

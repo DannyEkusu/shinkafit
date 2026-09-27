@@ -7,8 +7,26 @@ import { track } from './analytics.js';
 
 const root = document.getElementById('detail');
 const id = cleanId(getParam('id'));
-const { routines, wById, rById } = await api.getCatalog();
-const r = id ? rById.get(id) : null;
+
+/* Load only workouts.json + routines.json directly (not api.getCatalog(), which also
+ * loads exercises.json — this page never uses exercise data, so it must not fail to
+ * render just because an unrelated file has a problem). */
+let routines, wById, rById, r;
+try {
+  const [wkData, rtData] = await Promise.all([api.loadWorkouts(), api.loadRoutines()]);
+  wById = new Map(wkData.workouts.map((x) => [x.id, x]));
+  routines = rtData.routines;
+  rById = new Map(routines.map((x) => [x.id, x]));
+  r = id ? rById.get(id) : null;
+} catch (err) {
+  console.error('Failed to load routine data', err);
+  clear(root).append(errorState({
+    title: 'Could not load this routine',
+    text: 'The routine data failed to load. Check your connection and try again.',
+    onRetry: () => location.reload(),
+  }));
+  throw err;
+}
 
 if (!r) {
   clear(root).append(errorState({ title: 'Routine not found', text: "This routine doesn't exist or may have been removed.", actions: [el('a', { class: 'btn', href: 'routines.html' }, 'Browse all routines')] }));

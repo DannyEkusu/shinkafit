@@ -1882,6 +1882,344 @@
    ]
   },
   {
+   "id": "intermediate-full-body-bodyweight",
+   "name": "Intermediate Full Body",
+   "description": "A no-equipment full-body session that layers single-leg and pressing strength on top of the basics.",
+   "difficulty": "Intermediate",
+   "type": "Full Body",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Quads",
+    "Glutes",
+    "Core"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 30,
+   "durationBucket": "Medium",
+   "exerciseCount": 8,
+   "featured": true,
+   "tags": [
+    "bodyweight",
+    "no equipment"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "cat-cow",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 8,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 50,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "split-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 50,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "side-plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 25,
+     "rest": 35,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "single-leg-glute-bridge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "mountain-climber",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 30,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "advanced-full-body",
+   "name": "Advanced Full Body",
+   "description": "A demanding no-equipment full-body session pairing calisthenics skill work with power and core strength.",
+   "difficulty": "Advanced",
+   "type": "Full Body",
+   "goal": "Strength",
+   "equipment": [
+    "Pull-Up Bar"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Quads",
+    "Back",
+    "Core",
+    "Shoulders"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 30,
+   "durationBucket": "Medium",
+   "exerciseCount": 9,
+   "featured": false,
+   "tags": [
+    "bodyweight",
+    "calisthenics"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "cat-cow",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 8,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "warmup",
+     "sets": 2,
+     "reps": 10,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "archer-push-up",
+     "phase": "main",
+     "sets": 4,
+     "reps": 4,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "pistol-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 4,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "pull-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "jump-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "hollow-body-hold",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 25,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "worlds-greatest-stretch",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": 4,
+     "seconds": null,
+     "rest": 0,
+     "note": null,
+     "perSide": true
+    }
+   ]
+  },
+  {
+   "id": "advanced-core",
+   "name": "Advanced Core",
+   "description": "Demanding core work combining gymnastics holds with rotational and anti-extension strength.",
+   "difficulty": "Advanced",
+   "type": "Core",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 30,
+   "durationBucket": "Medium",
+   "exerciseCount": 8,
+   "featured": false,
+   "tags": [
+    "abs",
+    "gymnastics"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "dead-bug",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 6,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "hollow-body-hold",
+     "phase": "main",
+     "sets": 4,
+     "reps": null,
+     "seconds": 30,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "side-plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 35,
+     "rest": 30,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "archer-push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 4,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "lying-leg-raise",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "mountain-climber",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 35,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bicycle-crunch",
+     "phase": "main",
+     "sets": 3,
+     "reps": 20,
+     "seconds": null,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
    "id": "advanced-calisthenics-strength",
    "name": "Advanced Calisthenics Strength",
    "description": "Demanding skill-based strength work. Take full rests and stop sets before form breaks.",

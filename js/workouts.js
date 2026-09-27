@@ -1,11 +1,34 @@
 import * as api from './api.js';
 import { mountLibrary } from './filters.js';
 import { WORKOUT_SPEC } from './search.js';
-import { el, icon, levelBadge, fmtMinutes, getParam } from './ui.js';
+import { el, icon, levelBadge, fmtMinutes, getParam, errorState, clear } from './ui.js';
 import { favoriteButton } from './favorites.js';
 import { track } from './analytics.js';
 
-const { workouts, meta } = await api.getCatalog();
+const mountEl = document.getElementById('library');
+
+/* Load workouts.json + exercises.json directly (not api.getCatalog(), which also loads
+ * routines.json — this page never uses routine data). Exercise names are joined in here
+ * (not duplicated in workouts.json itself) so search can match a workout by an exercise
+ * it contains, e.g. typing "push-up" surfaces every workout that includes a push-up. */
+let workouts, meta;
+try {
+  const [exData, wkData] = await Promise.all([api.loadExercises(), api.loadWorkouts()]);
+  const exById = new Map(exData.exercises.map((x) => [x.id, x]));
+  workouts = wkData.workouts.map((w) => ({
+    ...w,
+    searchExercises: w.blocks.map((b) => exById.get(b.exerciseId)?.name).filter(Boolean).join(' '),
+  }));
+  meta = exData.meta;
+} catch (err) {
+  console.error('Failed to load workout data', err);
+  clear(mountEl).append(errorState({
+    title: 'Could not load the workout library',
+    text: 'The workout data failed to load. Check your connection and try again — if this keeps happening, the file may be missing or blocked.',
+    onRetry: () => location.reload(),
+  }));
+  throw err;
+}
 
 function workoutCard(w) {
   const link = el('a', { class: 'card__link', href: `workout.html?id=${w.id}` }, el('h3', null, w.name));

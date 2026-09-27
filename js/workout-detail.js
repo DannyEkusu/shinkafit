@@ -5,8 +5,26 @@ import { track } from './analytics.js';
 
 const root = document.getElementById('detail');
 const id = cleanId(getParam('id'));
-const { workouts, exById, wById } = await api.getCatalog();
-const w = id ? wById.get(id) : null;
+
+/* Load only exercises.json + workouts.json directly (not api.getCatalog(), which also
+ * loads routines.json — this page never uses routine data, so it must not fail to render
+ * just because an unrelated file has a problem). */
+let workouts, exById, wById, w;
+try {
+  const [exData, wkData] = await Promise.all([api.loadExercises(), api.loadWorkouts()]);
+  exById = new Map(exData.exercises.map((x) => [x.id, x]));
+  workouts = wkData.workouts;
+  wById = new Map(workouts.map((x) => [x.id, x]));
+  w = id ? wById.get(id) : null;
+} catch (err) {
+  console.error('Failed to load workout data', err);
+  clear(root).append(errorState({
+    title: 'Could not load this workout',
+    text: 'The workout data failed to load. Check your connection and try again.',
+    onRetry: () => location.reload(),
+  }));
+  throw err;
+}
 
 if (!w) {
   clear(root).append(errorState({ title: 'Workout not found', text: "This workout doesn't exist or may have been removed.", actions: [el('a', { class: 'btn', href: 'workouts.html' }, 'Browse all workouts')] }));
