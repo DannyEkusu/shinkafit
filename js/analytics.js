@@ -8,7 +8,8 @@
  * - Requires the backend: with no Supabase configured this module is a harmless no-op. */
 import { CONFIG } from './config.js';
 import * as store from './storage.js';
-import { isConfigured, request } from './api.js';
+import { isConfigured } from './auth.js';
+import { request } from './api.js';
 
 const ALLOWED = new Set([
   'session_start', 'workout_viewed', 'exercise_viewed', 'routine_viewed', 'search',
