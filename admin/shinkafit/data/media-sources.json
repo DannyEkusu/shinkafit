@@ -1,0 +1,18 @@
+{
+ "_readme": "Register every image, video or audio file here BEFORE adding it to an exercise. An exercise's media entry points at a source through sourceId. Do not add media unless you own it or the license allows this use.",
+ "_template": {
+  "id": "src-001",
+  "title": "",
+  "creator": "",
+  "sourceUrl": "",
+  "license": "e.g. CC0, CC BY 4.0, own work",
+  "licenseUrl": "",
+  "commercialUseAllowed": null,
+  "attributionRequired": null,
+  "attributionText": "",
+  "embeddingAllowed": null,
+  "notes": "",
+  "addedOn": "YYYY-MM-DD"
+ },
+ "sources": []
+}

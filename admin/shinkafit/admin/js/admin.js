@@ -104,7 +104,7 @@ function renderTopList(id, rows, unit, isSearch = false) {
   const wrap = document.getElementById(id);
   if (!rows.length) { clear(wrap).append(el('p', { class: 'muted' }, 'No data yet.')); return; }
   const max = Math.max(1, ...rows.map((r) => r.n));
-  clear(wrap).append(...rows.map((r) => el('div', { class: 'hbar' },
+  clear(wrap).append(rows.map((r) => el('div', { class: 'hbar' },
     el('span', null, isSearch ? (r.item_id || 'unknown') : r.item_id),
     el('div', { class: 'hbar__track' }, el('span', { class: 'hbar__fill', style: { width: `${(r.n / max) * 100}%` } })),
     el('span', { class: 'hbar__n' }, `${r.n}`))));

@@ -1,0 +1,3109 @@
+{
+ "version": 1,
+ "meta": {
+  "difficulty": [
+   "Beginner",
+   "Intermediate",
+   "Advanced"
+  ],
+  "muscleGroups": [
+   "Chest",
+   "Back",
+   "Shoulders",
+   "Biceps",
+   "Triceps",
+   "Core",
+   "Glutes",
+   "Quads",
+   "Hamstrings",
+   "Calves",
+   "Full Body"
+  ],
+  "equipment": [
+   "No Equipment",
+   "Dumbbells",
+   "Resistance Bands",
+   "Pull-Up Bar",
+   "Bench or Chair",
+   "Gym Equipment"
+  ],
+  "exerciseTypes": [
+   "Strength",
+   "Core",
+   "Cardio",
+   "Conditioning",
+   "Power",
+   "Mobility"
+  ],
+  "workoutTypes": [
+   "Full Body",
+   "Upper Body",
+   "Lower Body",
+   "Core",
+   "Cardio",
+   "Mobility",
+   "Strength",
+   "Conditioning"
+  ],
+  "goals": [
+   "General Fitness",
+   "Strength",
+   "Endurance",
+   "Mobility",
+   "Power",
+   "Conditioning"
+  ],
+  "durations": [
+   "Short",
+   "Medium",
+   "Long"
+  ]
+ },
+ "exercises": [
+  {
+   "id": "knee-push-up",
+   "name": "Knee Push-Up",
+   "aliases": [
+    "kneeling push-up",
+    "modified push-up",
+    "girl push-up"
+   ],
+   "description": "A push-up with the knees on the floor. It shortens the lever so you can practise the push-up pattern with good form.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Start on hands and knees with hands slightly wider than shoulders.",
+    "Walk your knees back until your body forms a straight line from head to knees.",
+    "Lower your chest toward the floor with elbows about 45 degrees from your body.",
+    "Press the floor away until your arms are straight."
+   ],
+   "formTips": [
+    "Squeeze your glutes and brace your core so your hips do not sag.",
+    "Keep your neck long and look at a spot just ahead of your hands."
+   ],
+   "commonMistakes": [
+    "Letting the hips drop toward the floor.",
+    "Flaring the elbows straight out to the sides."
+   ],
+   "beginnerModification": "Use a wall or a high surface and stand further from it to lower the difficulty.",
+   "progressions": [
+    {
+     "text": "Move to an incline push-up with hands on a chair or bench.",
+     "exerciseId": "incline-push-up"
+    },
+    {
+     "text": "Progress to a full push-up.",
+     "exerciseId": "push-up"
+    }
+   ],
+   "sets": 3,
+   "reps": "6-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "push",
+    "chest",
+    "upper body",
+    "press"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "incline-push-up",
+   "name": "Incline Push-Up",
+   "aliases": [
+    "elevated push-up",
+    "hands elevated push-up"
+   ],
+   "description": "A push-up with your hands raised on a stable surface. The higher the surface, the easier it is.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "Bench or Chair"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Place your hands on a sturdy bench, table edge or chair, slightly wider than your shoulders.",
+    "Step your feet back until your body is one straight line.",
+    "Lower your chest to the edge of the surface.",
+    "Press back up without letting your hips sag."
+   ],
+   "formTips": [
+    "Make sure the surface cannot slide or tip.",
+    "Lower the surface height over the weeks as you get stronger."
+   ],
+   "commonMistakes": [
+    "Using an unstable surface such as a rolling chair.",
+    "Shrugging the shoulders up toward the ears."
+   ],
+   "beginnerModification": "Stand closer to the surface and use a higher one, or do the movement against a wall.",
+   "progressions": [
+    {
+     "text": "Lower the surface height a little at a time.",
+     "exerciseId": null
+    },
+    {
+     "text": "Move to a full push-up on the floor.",
+     "exerciseId": "push-up"
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "push",
+    "chest",
+    "upper body",
+    "press"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "push-up",
+   "name": "Push-Up",
+   "aliases": [
+    "pushup",
+    "press up",
+    "press-up",
+    "floor push-up"
+   ],
+   "description": "The classic bodyweight pressing exercise. It trains the chest, shoulders and triceps while your core keeps the body rigid.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness",
+    "Endurance"
+   ],
+   "instructions": [
+    "Place your hands slightly wider than your shoulders and step your feet back into a straight body line.",
+    "Brace your core and squeeze your glutes.",
+    "Lower until your chest is a fist-width from the floor, elbows about 45 degrees from your ribs.",
+    "Press the floor away until your arms are straight."
+   ],
+   "formTips": [
+    "Think of the body as one plank that moves together.",
+    "Keep your wrists stacked under your shoulders at the bottom."
+   ],
+   "commonMistakes": [
+    "Sagging hips or piking the hips up.",
+    "Only moving the head instead of the chest."
+   ],
+   "beginnerModification": "Switch to knee push-ups or incline push-ups and build up your reps.",
+   "progressions": [
+    {
+     "text": "Add a pause at the bottom for one second.",
+     "exerciseId": null
+    },
+    {
+     "text": "Try diamond push-ups to shift load to the triceps.",
+     "exerciseId": "diamond-push-up"
+    },
+    {
+     "text": "Raise your feet with decline push-ups.",
+     "exerciseId": "decline-push-up"
+    }
+   ],
+   "sets": 3,
+   "reps": "8-15",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "push",
+    "chest",
+    "upper body",
+    "press",
+    "calisthenics"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "diamond-push-up",
+   "name": "Diamond Push-Up",
+   "aliases": [
+    "close-grip push-up",
+    "triangle push-up",
+    "tricep push-up"
+   ],
+   "description": "A push-up with the hands close together under the chest. It puts more of the work on the triceps.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Triceps",
+    "Chest",
+    "Shoulders",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Set up in a push-up position with your index fingers and thumbs close together under your chest.",
+    "Keep your elbows tucked close to your ribs.",
+    "Lower your chest toward your hands.",
+    "Press back up to straight arms."
+   ],
+   "formTips": [
+    "If your wrists complain, place the hands a little wider.",
+    "Keep the elbows pointing back rather than out."
+   ],
+   "commonMistakes": [
+    "Letting the elbows flare wide.",
+    "Rushing the lowering phase."
+   ],
+   "beginnerModification": "Do them from your knees or with hands slightly apart.",
+   "progressions": [
+    {
+     "text": "Slow the lowering phase to three seconds.",
+     "exerciseId": null
+    },
+    {
+     "text": "Move toward archer push-ups.",
+     "exerciseId": "archer-push-up"
+    }
+   ],
+   "sets": 3,
+   "reps": "6-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "push",
+    "triceps",
+    "upper body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "decline-push-up",
+   "name": "Decline Push-Up",
+   "aliases": [
+    "feet elevated push-up"
+   ],
+   "description": "A push-up with the feet raised. It shifts more load onto the shoulders and upper chest.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Bench or Chair"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Place your feet on a stable bench or chair and your hands on the floor slightly wider than your shoulders.",
+    "Brace your core so your body is one straight line.",
+    "Lower your chest toward the floor under control.",
+    "Press up until your arms are straight."
+   ],
+   "formTips": [
+    "Start with a low surface and raise it only when form is solid.",
+    "Keep your gaze slightly ahead of your hands."
+   ],
+   "commonMistakes": [
+    "Letting the lower back arch.",
+    "Using a surface that can slide."
+   ],
+   "beginnerModification": "Use a lower surface or return to a regular push-up.",
+   "progressions": [
+    {
+     "text": "Use a higher surface.",
+     "exerciseId": null
+    },
+    {
+     "text": "Try pike push-ups for a more vertical press.",
+     "exerciseId": "pike-push-up"
+    }
+   ],
+   "sets": 3,
+   "reps": "6-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "push",
+    "chest",
+    "shoulders"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "pike-push-up",
+   "name": "Pike Push-Up",
+   "aliases": [
+    "shoulder push-up",
+    "inverted push-up"
+   ],
+   "description": "A push-up in an inverted V shape that trains the shoulders and builds toward handstand strength.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Shoulders",
+    "Triceps",
+    "Chest"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Start in a downward-dog shape with hips high and hands shoulder-width apart.",
+    "Bend your elbows and lower the top of your head toward the floor between your hands.",
+    "Press back up to the start position."
+   ],
+   "formTips": [
+    "Keep the hips high throughout.",
+    "Walk your feet closer to your hands to make it harder."
+   ],
+   "commonMistakes": [
+    "Turning it into a regular push-up by dropping the hips.",
+    "Flaring the elbows wide."
+   ],
+   "beginnerModification": "Raise your hands on a sturdy step or bench to reduce the load.",
+   "progressions": [
+    {
+     "text": "Elevate your feet on a bench.",
+     "exerciseId": null
+    },
+    {
+     "text": "Practise the wall handstand hold.",
+     "exerciseId": "wall-handstand-hold"
+    }
+   ],
+   "sets": 3,
+   "reps": "5-10",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "push",
+    "shoulders",
+    "handstand"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "archer-push-up",
+   "name": "Archer Push-Up",
+   "aliases": [
+    "side-to-side push-up"
+   ],
+   "description": "A wide push-up where one arm does most of the work while the other arm stays straight. A step toward one-arm push-ups.",
+   "difficulty": "Advanced",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Start in a wide push-up position with hands well outside your shoulders.",
+    "Shift your weight to your right hand, bending that elbow while the left arm stays long.",
+    "Lower until your chest nears the right hand, then press back to centre.",
+    "Repeat on the other side."
+   ],
+   "formTips": [
+    "Keep your hips level and square to the floor.",
+    "Use as much of the straight arm as you need for balance, and less over time."
+   ],
+   "commonMistakes": [
+    "Rotating the torso instead of shifting it.",
+    "Going too deep before the shoulder is ready."
+   ],
+   "beginnerModification": "Do them with hands on a raised surface or shift less far to each side.",
+   "progressions": [
+    {
+     "text": "Keep the straight arm's fingertips lightly on the floor, then lift them.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "3-6",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "push",
+    "chest",
+    "calisthenics",
+    "unilateral"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "explosive-push-up",
+   "name": "Explosive Push-Up",
+   "aliases": [
+    "plyometric push-up",
+    "hands-off-floor push-up"
+   ],
+   "description": "A push-up where you press hard enough for your hands to briefly leave the floor. Builds upper-body power.",
+   "difficulty": "Advanced",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps",
+    "Core"
+   ],
+   "type": "Power",
+   "goals": [
+    "Power"
+   ],
+   "instructions": [
+    "Set up in a strong push-up position.",
+    "Lower under control to about chest-fist height.",
+    "Press up as fast as you can so your hands lift slightly off the floor.",
+    "Land softly with bent elbows and reset before the next rep."
+   ],
+   "formTips": [
+    "Do them fresh, early in a session, with full rests.",
+    "Land with soft elbows and a braced core."
+   ],
+   "commonMistakes": [
+    "Doing them when tired.",
+    "Landing with locked elbows."
+   ],
+   "beginnerModification": "Practise fast push-ups from an incline where the hands stay on the surface.",
+   "progressions": [
+    {
+     "text": "Add a small clap only once the basic version is easy and pain-free.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 4,
+   "reps": "4-6",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "power",
+    "push",
+    "plyometric"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "wall-handstand-hold",
+   "name": "Wall Handstand Hold",
+   "aliases": [
+    "handstand hold",
+    "wall handstand"
+   ],
+   "description": "A supported handstand with the feet against a wall. It builds shoulder strength and body awareness upside down.",
+   "difficulty": "Advanced",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Shoulders",
+    "Core",
+    "Triceps"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Place your hands about 20 cm from the wall and kick up one leg at a time until your heels rest on the wall.",
+    "Push tall through your shoulders and squeeze your glutes and core.",
+    "Keep the body in a long straight line and breathe steadily.",
+    "Come down one leg at a time."
+   ],
+   "formTips": [
+    "Practise on a clear floor with a spotter if you are new.",
+    "Stop when your form breaks down."
+   ],
+   "commonMistakes": [
+    "Arching the lower back into a banana shape.",
+    "Letting the shoulders sink toward the ears."
+   ],
+   "beginnerModification": "Start with pike push-ups or a chest-to-wall walk-up hold at a shallow angle.",
+   "progressions": [
+    {
+     "text": "Reduce wall contact to the toes only.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 20,
+   "perSide": false,
+   "tags": [
+    "handstand",
+    "shoulders",
+    "balance"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "bodyweight-squat",
+   "name": "Bodyweight Squat",
+   "aliases": [
+    "air squat",
+    "squat",
+    "bw squat"
+   ],
+   "description": "The foundation lower-body movement. Sit down between your hips and stand back up.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Hamstrings",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "General Fitness",
+    "Strength",
+    "Endurance"
+   ],
+   "instructions": [
+    "Stand with feet about shoulder-width apart and toes slightly turned out.",
+    "Brace your core and send your hips back and down.",
+    "Lower until your thighs are about parallel or as low as you can with a flat back.",
+    "Press through your whole foot to stand tall."
+   ],
+   "formTips": [
+    "Keep your knees tracking in line with your toes.",
+    "Keep your chest proud and your heels down."
+   ],
+   "commonMistakes": [
+    "Letting the knees cave inward.",
+    "Lifting the heels off the floor."
+   ],
+   "beginnerModification": "Squat to a chair and touch it lightly before standing.",
+   "progressions": [
+    {
+     "text": "Add a two-second pause at the bottom.",
+     "exerciseId": null
+    },
+    {
+     "text": "Try split squats.",
+     "exerciseId": "split-squat"
+    },
+    {
+     "text": "Add a jump with jump squats.",
+     "exerciseId": "jump-squat"
+    }
+   ],
+   "sets": 3,
+   "reps": "10-15",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "legs",
+    "squat",
+    "lower body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "reverse-lunge",
+   "name": "Reverse Lunge",
+   "aliases": [
+    "backward lunge",
+    "step-back lunge"
+   ],
+   "description": "A lunge where you step backward. It is often easier on the knees than stepping forward.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Hamstrings"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Stand tall with your feet hip-width apart.",
+    "Step one foot back and lower until both knees are about 90 degrees.",
+    "Keep most of your weight on the front foot.",
+    "Push through the front foot to return to standing."
+   ],
+   "formTips": [
+    "Take a step long enough that the front shin stays fairly vertical.",
+    "Keep your torso tall."
+   ],
+   "commonMistakes": [
+    "Taking a step that is too short.",
+    "Letting the front knee cave inward."
+   ],
+   "beginnerModification": "Hold a wall or chair for balance and lower only part of the way.",
+   "progressions": [
+    {
+     "text": "Add dumbbells.",
+     "exerciseId": null
+    },
+    {
+     "text": "Move to split squats.",
+     "exerciseId": "split-squat"
+    }
+   ],
+   "sets": 3,
+   "reps": "6-10",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "legs",
+    "lunge",
+    "unilateral"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "split-squat",
+   "name": "Split Squat",
+   "aliases": [
+    "static lunge",
+    "stationary lunge"
+   ],
+   "description": "A staggered-stance squat where the feet stay planted. Builds single-leg strength and balance.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Hamstrings"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Take a long stance with one foot forward and the back heel lifted.",
+    "Lower straight down until the back knee hovers just above the floor.",
+    "Keep your torso upright.",
+    "Press up through the front foot."
+   ],
+   "formTips": [
+    "Think straight down and straight up rather than forward and back.",
+    "Keep the front foot flat."
+   ],
+   "commonMistakes": [
+    "Leaning far forward.",
+    "Pushing off the back foot."
+   ],
+   "beginnerModification": "Hold a wall for balance and shorten the range.",
+   "progressions": [
+    {
+     "text": "Elevate the back foot for a rear-foot-elevated split squat.",
+     "exerciseId": null
+    },
+    {
+     "text": "Progress toward pistol squats.",
+     "exerciseId": "pistol-squat"
+    }
+   ],
+   "sets": 3,
+   "reps": "6-10",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "legs",
+    "unilateral"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "jump-squat",
+   "name": "Jump Squat",
+   "aliases": [
+    "squat jump",
+    "plyo squat"
+   ],
+   "description": "A squat followed by an explosive jump. Trains leg power and is a good conditioning move.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Calves"
+   ],
+   "type": "Power",
+   "goals": [
+    "Power",
+    "Conditioning"
+   ],
+   "instructions": [
+    "Set up like a bodyweight squat.",
+    "Lower into a quarter to half squat.",
+    "Jump up as high as you can, swinging your arms.",
+    "Land softly on the whole foot and go straight into the next rep."
+   ],
+   "formTips": [
+    "Land quietly with knees and hips bending to absorb force.",
+    "Rest fully between sets so every jump is crisp."
+   ],
+   "commonMistakes": [
+    "Landing with stiff knees.",
+    "Letting the knees cave inward when landing."
+   ],
+   "beginnerModification": "Do fast squats that rise onto the toes without leaving the floor.",
+   "progressions": [
+    {
+     "text": "Try broad jumps for horizontal power.",
+     "exerciseId": "broad-jump"
+    }
+   ],
+   "sets": 4,
+   "reps": "5-8",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "jump",
+    "power",
+    "plyometric",
+    "legs"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "broad-jump",
+   "name": "Broad Jump",
+   "aliases": [
+    "standing long jump",
+    "long jump"
+   ],
+   "description": "A two-foot jump forward for distance. Builds hip and leg power.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Hamstrings",
+    "Calves"
+   ],
+   "type": "Power",
+   "goals": [
+    "Power"
+   ],
+   "instructions": [
+    "Stand with feet shoulder-width apart.",
+    "Swing your arms back while you bend your hips and knees.",
+    "Swing forward and jump out as far as you can.",
+    "Land softly with bent knees and stick the landing."
+   ],
+   "formTips": [
+    "Stick each landing for a second before resetting.",
+    "Use a soft, non-slip surface."
+   ],
+   "commonMistakes": [
+    "Rushing reps without resetting.",
+    "Landing with stiff, locked knees."
+   ],
+   "beginnerModification": "Jump shorter distances and focus on soft landings.",
+   "progressions": [
+    {
+     "text": "Add a small rebound jump straight after landing.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 4,
+   "reps": "4-6",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "jump",
+    "power",
+    "plyometric"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "pistol-squat",
+   "name": "Pistol Squat",
+   "aliases": [
+    "single-leg squat",
+    "one-leg squat"
+   ],
+   "description": "A deep squat on one leg with the other leg held out in front. Requires strength, balance and mobility.",
+   "difficulty": "Advanced",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Stand on one leg with the other leg extended in front of you.",
+    "Reach your arms forward for balance and sit down slowly on the standing leg.",
+    "Lower as deep as you can control.",
+    "Press through the whole foot to stand."
+   ],
+   "formTips": [
+    "Hold a doorframe or pole for light assistance while learning.",
+    "Move slowly on the way down."
+   ],
+   "commonMistakes": [
+    "Dropping the last part of the movement.",
+    "Letting the knee collapse inward."
+   ],
+   "beginnerModification": "Squat down to a bench on one leg, or use a doorframe for support.",
+   "progressions": [
+    {
+     "text": "Reduce assistance until you can do the full range without support.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "3-5",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "legs",
+    "unilateral",
+    "calisthenics"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "glute-bridge",
+   "name": "Glute Bridge",
+   "aliases": [
+    "hip bridge",
+    "bridge"
+   ],
+   "description": "Lift your hips from the floor to strengthen the glutes and back of the legs.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Glutes",
+    "Hamstrings",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "General Fitness",
+    "Strength"
+   ],
+   "instructions": [
+    "Lie on your back with knees bent and feet flat, hip-width apart.",
+    "Press through your heels and lift your hips until your body forms a line from shoulders to knees.",
+    "Squeeze your glutes at the top for a second.",
+    "Lower slowly."
+   ],
+   "formTips": [
+    "Tuck your ribs down so you do not overarch the lower back.",
+    "Keep your heels close enough that your shins are vertical at the top."
+   ],
+   "commonMistakes": [
+    "Arching the lower back at the top.",
+    "Pushing through the toes."
+   ],
+   "beginnerModification": "Do a smaller range of motion and hold for less time.",
+   "progressions": [
+    {
+     "text": "Progress to single-leg bridges.",
+     "exerciseId": "single-leg-glute-bridge"
+    }
+   ],
+   "sets": 3,
+   "reps": "10-15",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "glutes",
+    "hips",
+    "lower body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "single-leg-glute-bridge",
+   "name": "Single-Leg Glute Bridge",
+   "aliases": [
+    "one-leg bridge",
+    "single leg bridge"
+   ],
+   "description": "A glute bridge on one leg. Harder on the glutes and trains hip stability.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Glutes",
+    "Hamstrings",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Lie on your back with one foot flat and the other leg extended or held with the knee bent.",
+    "Press through the planted heel to lift your hips.",
+    "Keep your hips level.",
+    "Lower slowly and repeat before switching sides."
+   ],
+   "formTips": [
+    "Keep hips level and do not let one side drop.",
+    "Squeeze at the top."
+   ],
+   "commonMistakes": [
+    "Rotating the hips open.",
+    "Using the lower back instead of the glutes."
+   ],
+   "beginnerModification": "Keep both feet down and slide one foot forward slightly.",
+   "progressions": [
+    {
+     "text": "Elevate the working foot on a low step.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "glutes",
+    "unilateral"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "calf-raise",
+   "name": "Calf Raise",
+   "aliases": [
+    "heel raise",
+    "standing calf raise"
+   ],
+   "description": "Rise onto the balls of your feet to strengthen the calves.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Calves"
+   ],
+   "type": "Strength",
+   "goals": [
+    "General Fitness",
+    "Strength"
+   ],
+   "instructions": [
+    "Stand tall with feet hip-width apart, holding a wall for balance if needed.",
+    "Press up onto the balls of your feet as high as you can.",
+    "Pause briefly at the top.",
+    "Lower slowly until your heels are near the floor."
+   ],
+   "formTips": [
+    "Move slowly and control the lowering.",
+    "Keep weight over the big toe side of the foot."
+   ],
+   "commonMistakes": [
+    "Bouncing through the movement.",
+    "Rolling the ankles outward."
+   ],
+   "beginnerModification": "Hold a wall or countertop with both hands.",
+   "progressions": [
+    {
+     "text": "Progress to single-leg calf raises.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "12-20",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "calves",
+    "lower body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "wall-sit",
+   "name": "Wall Sit",
+   "aliases": [
+    "wall squat",
+    "phantom chair"
+   ],
+   "description": "Hold a squat position with your back against a wall. Builds leg endurance.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Calves"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Endurance",
+    "Strength"
+   ],
+   "instructions": [
+    "Stand with your back against a wall and walk your feet forward.",
+    "Slide down until your knees are around 90 degrees.",
+    "Keep your back flat against the wall and breathe steadily.",
+    "Hold, then slide back up."
+   ],
+   "formTips": [
+    "Keep the knees over the ankles, not past the toes.",
+    "Rest your hands on your thighs, not on your knees."
+   ],
+   "commonMistakes": [
+    "Sitting too low too soon.",
+    "Holding the breath."
+   ],
+   "beginnerModification": "Sit higher with a smaller knee bend.",
+   "progressions": [
+    {
+     "text": "Add time in small steps.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "legs",
+    "isometric",
+    "endurance"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "plank",
+   "name": "Plank",
+   "aliases": [
+    "front plank",
+    "forearm plank"
+   ],
+   "description": "A static hold that trains the deep core muscles to keep the body rigid.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core",
+    "Shoulders",
+    "Glutes"
+   ],
+   "type": "Core",
+   "goals": [
+    "Strength",
+    "Endurance",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Place your forearms on the floor with elbows under your shoulders.",
+    "Extend your legs behind you and rise onto your toes.",
+    "Squeeze your glutes and brace your abs so your body is a straight line.",
+    "Breathe steadily and hold."
+   ],
+   "formTips": [
+    "Stop the set when your form breaks, not when you are exhausted.",
+    "Look down at the floor to keep your neck long."
+   ],
+   "commonMistakes": [
+    "Letting the hips sag or pike up.",
+    "Holding your breath."
+   ],
+   "beginnerModification": "Plank from your knees or with hands on a raised surface.",
+   "progressions": [
+    {
+     "text": "Add a shoulder tap or lift one leg.",
+     "exerciseId": null
+    },
+    {
+     "text": "Progress to the hollow body hold.",
+     "exerciseId": "hollow-body-hold"
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "core",
+    "abs",
+    "isometric"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "side-plank",
+   "name": "Side Plank",
+   "aliases": [
+    "lateral plank"
+   ],
+   "description": "A sideways plank that trains the obliques and hip stabilisers.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core",
+    "Shoulders",
+    "Glutes"
+   ],
+   "type": "Core",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Lie on your side with your elbow under your shoulder and legs stacked.",
+    "Lift your hips so your body forms a straight line.",
+    "Keep your hips stacked and your neck long.",
+    "Hold, then switch sides."
+   ],
+   "formTips": [
+    "Push the floor away with your forearm to stay tall.",
+    "Keep the hips high."
+   ],
+   "commonMistakes": [
+    "Letting the hips sink.",
+    "Rolling the chest forward or back."
+   ],
+   "beginnerModification": "Bend your knees and keep them on the floor.",
+   "progressions": [
+    {
+     "text": "Lift the top leg.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 25,
+   "perSide": true,
+   "tags": [
+    "core",
+    "obliques",
+    "isometric"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "dead-bug",
+   "name": "Dead Bug",
+   "aliases": [
+    "deadbug"
+   ],
+   "description": "Lie on your back and move opposite arm and leg while your lower back stays anchored. Great for core control.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core"
+   ],
+   "type": "Core",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Lie on your back with arms straight up and knees bent at 90 degrees over your hips.",
+    "Flatten your lower back gently toward the floor.",
+    "Lower your right arm and left leg toward the floor slowly.",
+    "Return and repeat on the other side."
+   ],
+   "formTips": [
+    "Move only as far as you can keep your lower back down.",
+    "Exhale as you extend."
+   ],
+   "commonMistakes": [
+    "Letting the lower back arch off the floor.",
+    "Moving too fast."
+   ],
+   "beginnerModification": "Move only the legs, or only the arms, keeping the other pair still.",
+   "progressions": [
+    {
+     "text": "Add a light weight in the hands.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "6-10",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "core",
+    "abs",
+    "control"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "bird-dog",
+   "name": "Bird Dog",
+   "aliases": [
+    "quadruped arm and leg raise"
+   ],
+   "description": "From hands and knees, reach one arm and the opposite leg long. Trains balance and spinal control.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core",
+    "Glutes",
+    "Back"
+   ],
+   "type": "Core",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Start on hands and knees with hands under shoulders and knees under hips.",
+    "Reach your right arm forward and left leg back until both are in line with your torso.",
+    "Keep your hips and shoulders level.",
+    "Return and repeat on the other side."
+   ],
+   "formTips": [
+    "Imagine balancing a glass of water on your lower back.",
+    "Move slowly and pause for a second at full reach."
+   ],
+   "commonMistakes": [
+    "Rotating the hips or arching the back.",
+    "Lifting the leg too high."
+   ],
+   "beginnerModification": "Lift only the leg, or only the arm.",
+   "progressions": [
+    {
+     "text": "Add an elbow-to-knee crunch under the body.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "6-10",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "core",
+    "balance",
+    "back"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "bicycle-crunch",
+   "name": "Bicycle Crunch",
+   "aliases": [
+    "bicycle",
+    "cycling crunch"
+   ],
+   "description": "An alternating crunch that trains the abs and obliques.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core"
+   ],
+   "type": "Core",
+   "goals": [
+    "Strength",
+    "Endurance"
+   ],
+   "instructions": [
+    "Lie on your back with hands lightly by your head and knees lifted.",
+    "Bring your right elbow toward your left knee while extending the right leg.",
+    "Switch sides in a smooth pedalling motion.",
+    "Keep your lower back pressed toward the floor."
+   ],
+   "formTips": [
+    "Rotate through your ribcage, not by pulling on your neck.",
+    "Move at a steady, controlled pace."
+   ],
+   "commonMistakes": [
+    "Pulling on the neck.",
+    "Rushing through reps."
+   ],
+   "beginnerModification": "Keep both feet on the floor and do slow alternating toe taps instead.",
+   "progressions": [
+    {
+     "text": "Slow the tempo and pause at each rotation.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "10-16",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "core",
+    "abs",
+    "obliques"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "hollow-body-hold",
+   "name": "Hollow Body Hold",
+   "aliases": [
+    "hollow hold",
+    "hollow rock position"
+   ],
+   "description": "A gymnastics shape where you lie on your back with arms and legs extended and lifted. Builds strong core tension.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core",
+    "Quads"
+   ],
+   "type": "Core",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Lie on your back with arms overhead and legs straight.",
+    "Press your lower back into the floor and lift your shoulders and legs a few centimetres off the ground.",
+    "Keep your ribs down and your body in a shallow banana shape.",
+    "Hold and breathe."
+   ],
+   "formTips": [
+    "If your lower back lifts, bend the knees or raise the legs higher.",
+    "Keep your chin slightly tucked."
+   ],
+   "commonMistakes": [
+    "Arching the lower back.",
+    "Lifting the legs so low that the back arches."
+   ],
+   "beginnerModification": "Bend your knees to tuck the legs closer to the chest.",
+   "progressions": [
+    {
+     "text": "Extend the arms overhead and legs lower.",
+     "exerciseId": null
+    },
+    {
+     "text": "Try lying leg raises.",
+     "exerciseId": "lying-leg-raise"
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 20,
+   "perSide": false,
+   "tags": [
+    "core",
+    "abs",
+    "gymnastics",
+    "isometric"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "lying-leg-raise",
+   "name": "Lying Leg Raise",
+   "aliases": [
+    "leg raise",
+    "flat leg raise"
+   ],
+   "description": "Raise the legs while lying down. Targets the lower abdominal area and hip flexors.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core",
+    "Quads"
+   ],
+   "type": "Core",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Lie on your back with hands under your hips.",
+    "Keep your legs straight and lift them until they point at the ceiling.",
+    "Lower slowly without letting your lower back arch.",
+    "Stop just before your heels touch the floor."
+   ],
+   "formTips": [
+    "Bend your knees slightly if your lower back lifts.",
+    "Lower over three seconds."
+   ],
+   "commonMistakes": [
+    "Arching the lower back.",
+    "Swinging the legs with momentum."
+   ],
+   "beginnerModification": "Bend the knees and raise them toward the chest.",
+   "progressions": [
+    {
+     "text": "Add a hold at the bottom.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "6-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "core",
+    "abs"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "mountain-climber",
+   "name": "Mountain Climber",
+   "aliases": [
+    "mountain climbers",
+    "running plank"
+   ],
+   "description": "Drive the knees toward the chest in a plank. Raises heart rate and trains the core.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core",
+    "Shoulders",
+    "Quads"
+   ],
+   "type": "Conditioning",
+   "goals": [
+    "Conditioning",
+    "Endurance"
+   ],
+   "instructions": [
+    "Start in a high plank with hands under shoulders.",
+    "Drive one knee toward your chest.",
+    "Switch legs quickly in a running motion.",
+    "Keep your hips level and shoulders stacked."
+   ],
+   "formTips": [
+    "Start slowly and build speed only if your form holds.",
+    "Keep your hands firmly planted."
+   ],
+   "commonMistakes": [
+    "Bouncing the hips high.",
+    "Letting the shoulders drift behind the hands."
+   ],
+   "beginnerModification": "Do them slowly, or with hands on a raised surface.",
+   "progressions": [
+    {
+     "text": "Increase speed for the last few seconds of each interval.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "cardio",
+    "core",
+    "conditioning"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "superman",
+   "name": "Superman",
+   "aliases": [
+    "back extension",
+    "prone back raise"
+   ],
+   "description": "Lie face down and lift arms and legs slightly to strengthen the back and glutes.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Glutes"
+   ],
+   "type": "Strength",
+   "goals": [
+    "General Fitness",
+    "Strength"
+   ],
+   "instructions": [
+    "Lie on your stomach with arms extended overhead.",
+    "Gently lift your arms, chest and legs a few centimetres.",
+    "Hold for a second, keeping your neck neutral.",
+    "Lower slowly."
+   ],
+   "formTips": [
+    "Look at the floor to keep your neck long.",
+    "Squeeze the glutes rather than cranking the lower back."
+   ],
+   "commonMistakes": [
+    "Lifting too high and compressing the lower back.",
+    "Jerking the neck up."
+   ],
+   "beginnerModification": "Lift only the arms or only the legs.",
+   "progressions": [
+    {
+     "text": "Hold each rep for three seconds.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "back",
+    "posture",
+    "glutes"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "jumping-jack",
+   "name": "Jumping Jack",
+   "aliases": [
+    "star jump",
+    "jumping jacks"
+   ],
+   "description": "A simple full-body cardio move that raises the heart rate quickly and works as a warm-up.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Calves",
+    "Shoulders"
+   ],
+   "type": "Cardio",
+   "goals": [
+    "Endurance",
+    "Conditioning",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Stand tall with feet together and arms at your sides.",
+    "Jump your feet apart while raising your arms overhead.",
+    "Jump back to the start.",
+    "Repeat at a steady rhythm."
+   ],
+   "formTips": [
+    "Land softly on the balls of your feet.",
+    "Keep breathing steadily."
+   ],
+   "commonMistakes": [
+    "Landing heavily on the heels.",
+    "Rushing until form falls apart."
+   ],
+   "beginnerModification": "Step one foot out at a time instead of jumping.",
+   "progressions": [
+    {
+     "text": "Try high knees or skater jumps for variety.",
+     "exerciseId": "high-knees"
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "cardio",
+    "warm-up",
+    "full body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "high-knees",
+   "name": "High Knees",
+   "aliases": [
+    "running in place",
+    "knee drives"
+   ],
+   "description": "Run in place while driving the knees up toward hip height.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Core",
+    "Calves"
+   ],
+   "type": "Cardio",
+   "goals": [
+    "Endurance",
+    "Conditioning"
+   ],
+   "instructions": [
+    "Stand tall with feet hip-width apart.",
+    "Drive your right knee up toward hip height while pumping the opposite arm.",
+    "Quickly switch legs.",
+    "Stay light on your feet."
+   ],
+   "formTips": [
+    "Keep your chest tall and land under your hips.",
+    "Scale the height and speed to what you can control."
+   ],
+   "commonMistakes": [
+    "Leaning back.",
+    "Landing heavily on the heels."
+   ],
+   "beginnerModification": "March in place with lifted knees.",
+   "progressions": [
+    {
+     "text": "Increase speed while keeping the knees high.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "cardio",
+    "warm-up",
+    "running"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "burpee",
+   "name": "Burpee",
+   "aliases": [
+    "burpees",
+    "squat thrust"
+   ],
+   "description": "A full-body conditioning movement combining a squat, plank and jump. Very demanding, so scale it as needed.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Chest",
+    "Quads"
+   ],
+   "type": "Conditioning",
+   "goals": [
+    "Conditioning",
+    "Endurance"
+   ],
+   "instructions": [
+    "Stand tall, then squat and place your hands on the floor.",
+    "Step or jump your feet back into a plank.",
+    "Step or jump your feet back toward your hands.",
+    "Stand and jump up with arms overhead."
+   ],
+   "formTips": [
+    "Choose a pace you can keep with control.",
+    "Keep your core braced in the plank."
+   ],
+   "commonMistakes": [
+    "Collapsing the lower back in the plank.",
+    "Rushing when tired."
+   ],
+   "beginnerModification": "Step back and forward without the push-up or jump.",
+   "progressions": [
+    {
+     "text": "Add a push-up in the plank.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "6-10",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "conditioning",
+    "cardio",
+    "full body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "skater-jump",
+   "name": "Skater Jump",
+   "aliases": [
+    "lateral bound",
+    "skater hop",
+    "speed skater"
+   ],
+   "description": "Bound side to side from one foot to the other like a speed skater. Trains lateral power and balance.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Glutes",
+    "Quads",
+    "Calves"
+   ],
+   "type": "Conditioning",
+   "goals": [
+    "Conditioning",
+    "Power"
+   ],
+   "instructions": [
+    "Stand on one leg with a slight knee bend.",
+    "Bound sideways to the other leg, landing softly.",
+    "Let your free leg sweep behind you.",
+    "Bound back and repeat."
+   ],
+   "formTips": [
+    "Land softly and pause briefly to control the landing.",
+    "Start with a short bound."
+   ],
+   "commonMistakes": [
+    "Landing with stiff knees.",
+    "Losing balance from too big a bound."
+   ],
+   "beginnerModification": "Step side to side without jumping.",
+   "progressions": [
+    {
+     "text": "Add a small hop on each landing.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "cardio",
+    "lateral",
+    "balance"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "bear-crawl",
+   "name": "Bear Crawl",
+   "aliases": [
+    "crawling"
+   ],
+   "description": "Crawl on hands and toes with the knees hovering off the floor. Great for shoulders and core.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Core",
+    "Shoulders"
+   ],
+   "type": "Conditioning",
+   "goals": [
+    "Conditioning",
+    "Strength"
+   ],
+   "instructions": [
+    "Start on hands and toes with knees hovering a few centimetres off the floor.",
+    "Move the opposite hand and foot forward together.",
+    "Keep your hips low and your back flat.",
+    "Crawl forward, then backward."
+   ],
+   "formTips": [
+    "Take small controlled steps.",
+    "Keep your gaze slightly ahead."
+   ],
+   "commonMistakes": [
+    "Raising the hips too high.",
+    "Moving too quickly with sloppy form."
+   ],
+   "beginnerModification": "Rock forward and back in the bear position without crawling.",
+   "progressions": [
+    {
+     "text": "Crawl backward or sideways.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "crawl",
+    "core",
+    "conditioning"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "pull-up",
+   "name": "Pull-Up",
+   "aliases": [
+    "pullup",
+    "overhand pull-up"
+   ],
+   "description": "Hang from a bar and pull your chin above it. A benchmark upper-body strength exercise.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Pull-Up Bar"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Biceps",
+    "Shoulders",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Hang from a bar with an overhand grip slightly wider than shoulders.",
+    "Pull your shoulder blades down and back.",
+    "Pull your chest toward the bar until your chin clears it.",
+    "Lower under control to a full hang."
+   ],
+   "formTips": [
+    "Start each rep from a controlled hang.",
+    "Squeeze your glutes and keep your legs still."
+   ],
+   "commonMistakes": [
+    "Kipping to get up.",
+    "Shortening the range at the bottom."
+   ],
+   "beginnerModification": "Use a resistance band for assistance or do slow lowerings from the top.",
+   "progressions": [
+    {
+     "text": "Add a pause at the top.",
+     "exerciseId": null
+    },
+    {
+     "text": "Progress to weighted pull-ups.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 4,
+   "reps": "3-8",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "pull",
+    "back",
+    "calisthenics",
+    "upper body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "chin-up",
+   "name": "Chin-Up",
+   "aliases": [
+    "underhand pull-up",
+    "chinup"
+   ],
+   "description": "A pull-up with an underhand grip that involves the biceps more.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Pull-Up Bar"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Biceps"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Hang from a bar with palms facing you and hands shoulder-width apart.",
+    "Pull your shoulder blades down.",
+    "Pull your chin above the bar, keeping elbows pointing down.",
+    "Lower to a full hang."
+   ],
+   "formTips": [
+    "Control the way down for two to three seconds.",
+    "Keep the chest up."
+   ],
+   "commonMistakes": [
+    "Swinging for momentum.",
+    "Stopping short of a full hang."
+   ],
+   "beginnerModification": "Use a band for assistance or step up and lower slowly.",
+   "progressions": [
+    {
+     "text": "Add a pause at the top.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "3-8",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "pull",
+    "biceps",
+    "upper body"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "band-pull-apart",
+   "name": "Band Pull-Apart",
+   "aliases": [
+    "band pull apart",
+    "banded pull apart"
+   ],
+   "description": "Pull a resistance band apart at chest height. Strengthens the upper back and improves posture.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "Resistance Bands"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Shoulders"
+   ],
+   "type": "Strength",
+   "goals": [
+    "General Fitness",
+    "Strength"
+   ],
+   "instructions": [
+    "Hold a band in front of you at chest height with arms straight.",
+    "Pull the band apart by squeezing your shoulder blades together.",
+    "Pause when your arms are out to the sides.",
+    "Return slowly."
+   ],
+   "formTips": [
+    "Keep your ribs down and shoulders away from the ears.",
+    "Use a lighter band and better form before a heavier band."
+   ],
+   "commonMistakes": [
+    "Shrugging the shoulders.",
+    "Snapping the band back."
+   ],
+   "beginnerModification": "Use a light band and a smaller range.",
+   "progressions": [
+    {
+     "text": "Use a slightly heavier band.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "12-20",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "back",
+    "posture",
+    "band"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "band-row",
+   "name": "Resistance Band Row",
+   "aliases": [
+    "banded row",
+    "seated band row"
+   ],
+   "description": "Pull a band toward your torso, anchored in front of you. A simple back exercise you can do anywhere.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "Resistance Bands"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Biceps"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Anchor the band securely at chest height or loop it around your feet while seated.",
+    "Hold the ends with arms extended and shoulders down.",
+    "Pull your elbows back and squeeze your shoulder blades together.",
+    "Return slowly."
+   ],
+   "formTips": [
+    "Check that the anchor cannot slip.",
+    "Keep your torso still and tall."
+   ],
+   "commonMistakes": [
+    "Leaning back to cheat the pull.",
+    "Letting the band snap back."
+   ],
+   "beginnerModification": "Use a lighter band or step closer to the anchor.",
+   "progressions": [
+    {
+     "text": "Use a heavier band or pause for two seconds at the squeeze.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "10-15",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "back",
+    "band",
+    "pull"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "band-squat",
+   "name": "Resistance Band Squat",
+   "aliases": [
+    "banded squat"
+   ],
+   "description": "A squat with a band under your feet for extra resistance.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "Resistance Bands"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Stand on the middle of the band and hold the ends at your shoulders.",
+    "Squat down with a tall chest.",
+    "Drive up through your whole foot.",
+    "Keep the band tight throughout."
+   ],
+   "formTips": [
+    "Keep knees tracking over the toes.",
+    "Ensure the band is not frayed before use."
+   ],
+   "commonMistakes": [
+    "Letting the knees cave.",
+    "Rounding the back."
+   ],
+   "beginnerModification": "Use a lighter band or squat to a chair.",
+   "progressions": [
+    {
+     "text": "Use a heavier band.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "10-15",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "legs",
+    "band",
+    "squat"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "dumbbell-row",
+   "name": "Dumbbell Row",
+   "aliases": [
+    "one-arm dumbbell row",
+    "db row"
+   ],
+   "description": "Row a dumbbell toward your hip while supported on a bench or chair. Builds the upper back.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "Dumbbells",
+    "Bench or Chair"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Biceps"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Place one hand and knee on a bench or chair and hold a dumbbell in the other hand.",
+    "Keep your back flat and your hips square.",
+    "Pull the dumbbell toward your hip, leading with the elbow.",
+    "Lower with control."
+   ],
+   "formTips": [
+    "Keep your neck in line with your spine.",
+    "Pull with your back, not by twisting."
+   ],
+   "commonMistakes": [
+    "Rotating the torso.",
+    "Letting the shoulder shrug."
+   ],
+   "beginnerModification": "Use a lighter weight and a shorter range.",
+   "progressions": [
+    {
+     "text": "Increase the weight or add a pause.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "back",
+    "pull",
+    "dumbbell"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "dumbbell-shoulder-press",
+   "name": "Dumbbell Shoulder Press",
+   "aliases": [
+    "overhead press",
+    "db shoulder press"
+   ],
+   "description": "Press dumbbells overhead to build shoulder strength.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Dumbbells"
+   ],
+   "muscleGroups": [
+    "Shoulders",
+    "Triceps",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Stand or sit tall holding dumbbells at shoulder height with palms forward.",
+    "Brace your core.",
+    "Press the weights overhead until your arms are straight.",
+    "Lower back to shoulder height slowly."
+   ],
+   "formTips": [
+    "Keep your ribs down and avoid arching the back.",
+    "Press slightly in front of you rather than straight out to the side."
+   ],
+   "commonMistakes": [
+    "Leaning back to press.",
+    "Using a weight that is too heavy."
+   ],
+   "beginnerModification": "Use lighter weights or do it seated with back support.",
+   "progressions": [
+    {
+     "text": "Use heavier dumbbells.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "6-10",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "shoulders",
+    "press",
+    "dumbbell"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "dumbbell-curl",
+   "name": "Dumbbell Curl",
+   "aliases": [
+    "bicep curl",
+    "biceps curl"
+   ],
+   "description": "Curl dumbbells to build the front of the arms.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "Dumbbells"
+   ],
+   "muscleGroups": [
+    "Biceps"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Stand tall holding dumbbells at your sides with palms forward.",
+    "Keep your elbows close to your ribs.",
+    "Curl the weights up toward your shoulders.",
+    "Lower slowly."
+   ],
+   "formTips": [
+    "Do not swing the torso.",
+    "Squeeze at the top."
+   ],
+   "commonMistakes": [
+    "Swinging the weights.",
+    "Letting the elbows drift forward."
+   ],
+   "beginnerModification": "Use lighter weights.",
+   "progressions": [
+    {
+     "text": "Slow the lowering to three seconds.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "arms",
+    "biceps",
+    "dumbbell"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "bench-dip",
+   "name": "Bench Dip",
+   "aliases": [
+    "chair dip",
+    "tricep dip"
+   ],
+   "description": "Lower and raise your body with hands on a bench behind you. Builds the triceps.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Bench or Chair"
+   ],
+   "muscleGroups": [
+    "Triceps",
+    "Shoulders",
+    "Chest"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Sit on the edge of a sturdy bench and place your hands beside your hips.",
+    "Slide your hips off the bench with knees bent.",
+    "Lower until your elbows reach about 90 degrees.",
+    "Press back up."
+   ],
+   "formTips": [
+    "Keep your hips close to the bench.",
+    "Stop if you feel pinching in the front of the shoulder."
+   ],
+   "commonMistakes": [
+    "Letting the shoulders roll forward.",
+    "Going too deep."
+   ],
+   "beginnerModification": "Keep your knees bent and feet close to your body.",
+   "progressions": [
+    {
+     "text": "Extend your legs further away.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "6-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "arms",
+    "triceps"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "goblet-squat",
+   "name": "Goblet Squat",
+   "aliases": [
+    "dumbbell goblet squat",
+    "db squat"
+   ],
+   "description": "Hold one dumbbell at your chest while squatting. The weight helps you stay upright.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "Dumbbells"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Core"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Hold a dumbbell vertically against your chest.",
+    "Stand with feet slightly wider than shoulders.",
+    "Squat down between your knees.",
+    "Drive up through your heels and midfoot."
+   ],
+   "formTips": [
+    "Keep your elbows inside your knees at the bottom.",
+    "Keep the weight close to your body."
+   ],
+   "commonMistakes": [
+    "Letting the weight pull you forward.",
+    "Rushing the lowering."
+   ],
+   "beginnerModification": "Use a lighter weight and a shallower squat.",
+   "progressions": [
+    {
+     "text": "Use a heavier dumbbell.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "legs",
+    "squat",
+    "dumbbell"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "dumbbell-romanian-deadlift",
+   "name": "Dumbbell Romanian Deadlift",
+   "aliases": [
+    "dumbbell rdl",
+    "db rdl",
+    "stiff-leg deadlift"
+   ],
+   "description": "Hinge at the hips with dumbbells to train the hamstrings and glutes.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Dumbbells"
+   ],
+   "muscleGroups": [
+    "Hamstrings",
+    "Glutes",
+    "Back"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Stand tall holding dumbbells in front of your thighs.",
+    "Push your hips back with a soft bend in the knees.",
+    "Lower the weights along your legs until you feel a hamstring stretch.",
+    "Squeeze your glutes to stand tall again."
+   ],
+   "formTips": [
+    "Keep your back flat and the dumbbells close.",
+    "Think about pushing your hips back, not bending forward."
+   ],
+   "commonMistakes": [
+    "Rounding the lower back.",
+    "Letting the weights drift forward."
+   ],
+   "beginnerModification": "Practise the hinge without weight, touching a wall behind you with your hips.",
+   "progressions": [
+    {
+     "text": "Use heavier dumbbells.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "hamstrings",
+    "glutes",
+    "hinge",
+    "dumbbell"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "dumbbell-bench-press",
+   "name": "Dumbbell Bench Press",
+   "aliases": [
+    "db bench press",
+    "dumbbell chest press"
+   ],
+   "description": "Press dumbbells up while lying on a flat bench. A classic chest exercise.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Dumbbells",
+    "Bench or Chair"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Lie on a flat bench with a dumbbell in each hand at chest level.",
+    "Plant your feet firmly and keep your shoulder blades pinched.",
+    "Press the weights up until your arms are straight.",
+    "Lower slowly to chest level."
+   ],
+   "formTips": [
+    "Keep your wrists stacked over your elbows.",
+    "Use a weight you can control on every rep."
+   ],
+   "commonMistakes": [
+    "Bouncing the weights.",
+    "Flaring the elbows out wide."
+   ],
+   "beginnerModification": "Use lighter weights or do floor presses.",
+   "progressions": [
+    {
+     "text": "Use heavier dumbbells.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "chest",
+    "press",
+    "dumbbell"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "lat-pulldown",
+   "name": "Lat Pulldown",
+   "aliases": [
+    "lat pull down",
+    "cable pulldown"
+   ],
+   "description": "Pull a bar down toward your chest on a cable machine. Builds the upper back and helps you progress toward pull-ups.",
+   "difficulty": "Intermediate",
+   "equipment": [
+    "Gym Equipment"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Biceps"
+   ],
+   "type": "Strength",
+   "goals": [
+    "Strength"
+   ],
+   "instructions": [
+    "Sit at the machine with thighs secured under the pads.",
+    "Grab the bar slightly wider than shoulder-width.",
+    "Pull the bar to your upper chest, leading with your elbows.",
+    "Return the bar slowly."
+   ],
+   "formTips": [
+    "Sit tall and do not lean back excessively.",
+    "Choose a weight you can control."
+   ],
+   "commonMistakes": [
+    "Pulling the bar behind the neck.",
+    "Using momentum."
+   ],
+   "beginnerModification": "Use a lighter weight and a smaller range.",
+   "progressions": [
+    {
+     "text": "Work toward pull-ups.",
+     "exerciseId": "pull-up"
+    }
+   ],
+   "sets": 3,
+   "reps": "8-12",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "back",
+    "machine",
+    "pull"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "cat-cow",
+   "name": "Cat-Cow",
+   "aliases": [
+    "cat camel",
+    "cat cow stretch"
+   ],
+   "description": "Move the spine between rounding and arching on hands and knees. A gentle spinal warm-up.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Core"
+   ],
+   "type": "Mobility",
+   "goals": [
+    "Mobility",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Start on hands and knees.",
+    "Inhale, drop your belly and lift your chest and tailbone.",
+    "Exhale, round your back and tuck your chin.",
+    "Flow between the two slowly."
+   ],
+   "formTips": [
+    "Move with your breath.",
+    "Keep the movement comfortable."
+   ],
+   "commonMistakes": [
+    "Forcing the range.",
+    "Moving too fast."
+   ],
+   "beginnerModification": "Use a smaller range and pause on the way.",
+   "progressions": [
+    {
+     "text": "Add slow rotations of the ribcage.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 2,
+   "reps": "8-10",
+   "duration": null,
+   "perSide": false,
+   "tags": [
+    "mobility",
+    "spine",
+    "warm-up"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "worlds-greatest-stretch",
+   "name": "World's Greatest Stretch",
+   "aliases": [
+    "lunge with rotation",
+    "spiderman stretch"
+   ],
+   "description": "A flowing lunge and rotation that opens the hips, hamstrings and upper back.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Hamstrings",
+    "Glutes",
+    "Back"
+   ],
+   "type": "Mobility",
+   "goals": [
+    "Mobility",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Step into a long lunge with both hands on the floor inside the front foot.",
+    "Rotate the chest toward the front leg and reach that arm up.",
+    "Return the hand to the floor.",
+    "Step through to the other side."
+   ],
+   "formTips": [
+    "Breathe out as you rotate.",
+    "Keep the movement smooth."
+   ],
+   "commonMistakes": [
+    "Rushing the rotation.",
+    "Collapsing into the front knee."
+   ],
+   "beginnerModification": "Keep the back knee on the floor.",
+   "progressions": [
+    {
+     "text": "Add a hamstring stretch by straightening the front leg.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 2,
+   "reps": "4-6",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "mobility",
+    "hips",
+    "warm-up"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "kneeling-hip-flexor-stretch",
+   "name": "Kneeling Hip Flexor Stretch",
+   "aliases": [
+    "hip flexor stretch",
+    "lunge stretch"
+   ],
+   "description": "Stretch the front of the hip in a half-kneeling position.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes"
+   ],
+   "type": "Mobility",
+   "goals": [
+    "Mobility"
+   ],
+   "instructions": [
+    "Kneel on one knee with the other foot forward.",
+    "Tuck your pelvis under and squeeze the back glute.",
+    "Shift your weight forward gently.",
+    "Hold, breathing steadily, then switch."
+   ],
+   "formTips": [
+    "Tuck the pelvis rather than arching the back.",
+    "Ease into the stretch."
+   ],
+   "commonMistakes": [
+    "Arching the lower back.",
+    "Forcing the stretch."
+   ],
+   "beginnerModification": "Pad the kneeling knee and take a shorter stance.",
+   "progressions": [
+    {
+     "text": "Raise the same-side arm overhead.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 2,
+   "reps": null,
+   "duration": 30,
+   "perSide": true,
+   "tags": [
+    "mobility",
+    "hips",
+    "stretch"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "thoracic-open-book",
+   "name": "Thoracic Open Book",
+   "aliases": [
+    "open book",
+    "thoracic rotation"
+   ],
+   "description": "Rotate the upper back while lying on your side. Improves upper-back mobility.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Shoulders"
+   ],
+   "type": "Mobility",
+   "goals": [
+    "Mobility"
+   ],
+   "instructions": [
+    "Lie on your side with knees bent and arms out in front.",
+    "Lift your top arm and open it toward the other side, following with your eyes.",
+    "Pause when you feel a comfortable stretch.",
+    "Return and repeat."
+   ],
+   "formTips": [
+    "Keep your knees together.",
+    "Breathe out as you open."
+   ],
+   "commonMistakes": [
+    "Letting the knees separate.",
+    "Forcing the rotation."
+   ],
+   "beginnerModification": "Use a smaller range or place a pillow between the knees.",
+   "progressions": [
+    {
+     "text": "Hold the open position for several breaths.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 2,
+   "reps": "6-8",
+   "duration": null,
+   "perSide": true,
+   "tags": [
+    "mobility",
+    "spine",
+    "stretch"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "childs-pose",
+   "name": "Child's Pose",
+   "aliases": [
+    "child pose",
+    "balasana"
+   ],
+   "description": "A resting stretch that gently lengthens the back and hips.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Glutes"
+   ],
+   "type": "Mobility",
+   "goals": [
+    "Mobility"
+   ],
+   "instructions": [
+    "Kneel and sit back toward your heels.",
+    "Reach your arms forward along the floor.",
+    "Rest your forehead down.",
+    "Breathe slowly."
+   ],
+   "formTips": [
+    "Widen your knees if it is more comfortable.",
+    "Relax your jaw and shoulders."
+   ],
+   "commonMistakes": [
+    "Forcing your hips down.",
+    "Holding the breath."
+   ],
+   "beginnerModification": "Place a cushion between your hips and heels.",
+   "progressions": [
+    {
+     "text": "Walk your hands to each side to stretch the sides of the torso.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 1,
+   "reps": null,
+   "duration": 45,
+   "perSide": false,
+   "tags": [
+    "mobility",
+    "stretch",
+    "cool-down"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  },
+  {
+   "id": "arm-circles",
+   "name": "Arm Circles",
+   "aliases": [
+    "shoulder circles"
+   ],
+   "description": "Circle the arms to warm up the shoulders.",
+   "difficulty": "Beginner",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Shoulders"
+   ],
+   "type": "Mobility",
+   "goals": [
+    "Mobility",
+    "General Fitness"
+   ],
+   "instructions": [
+    "Stand tall with your arms out to the sides.",
+    "Make small circles, gradually getting bigger.",
+    "Reverse the direction after several seconds.",
+    "Keep your shoulders relaxed."
+   ],
+   "formTips": [
+    "Keep the neck relaxed.",
+    "Stay within a comfortable range."
+   ],
+   "commonMistakes": [
+    "Shrugging the shoulders.",
+    "Rushing."
+   ],
+   "beginnerModification": "Make smaller circles.",
+   "progressions": [
+    {
+     "text": "Add a slow pulse at the top of each circle.",
+     "exerciseId": null
+    }
+   ],
+   "sets": 1,
+   "reps": null,
+   "duration": 30,
+   "perSide": false,
+   "tags": [
+    "mobility",
+    "warm-up",
+    "shoulders"
+   ],
+   "media": {
+    "images": [],
+    "video": null,
+    "audio": null
+   }
+  }
+ ]
+}

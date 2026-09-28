@@ -2,13 +2,6 @@ import * as api from './api.js';
 import { getFavorites } from './favorites.js';
 import { el, icon, mount, clear, fmtMinutes, dayKey, isoDow, DOW_SHORT, DOW_NAMES, tickStrip, ring, plural, fmtDate, download } from './ui.js';
 
-/* declared before the render calls below run at module start-up */
-const MILESTONES = [
-  { n: 1, label: 'First workout', icon: 'checkCircle' }, { n: 5, label: '5 workouts', icon: 'target' },
-  { n: 10, label: '10 workouts', icon: 'target' }, { n: 25, label: '25 workouts', icon: 'trophy' },
-  { n: 50, label: '50 workouts', icon: 'trophy' }, { n: 100, label: '100 workouts', icon: 'trophy' },
-];
-
 const { exById, wById } = await api.getCatalog();
 const hist = [...api.getHistory()].sort((a, b) => new Date(b.completedAt) - new Date(a.completedAt));
 const exLog = api.getExLog();
@@ -64,6 +57,11 @@ function renderWeekBars() {
   mount(document.getElementById('tick-strip'), tickStrip(strip));
 }
 
+const MILESTONES = [
+  { n: 1, label: 'First workout', icon: 'checkCircle' }, { n: 5, label: '5 workouts', icon: 'target' },
+  { n: 10, label: '10 workouts', icon: 'target' }, { n: 25, label: '25 workouts', icon: 'trophy' },
+  { n: 50, label: '50 workouts', icon: 'trophy' }, { n: 100, label: '100 workouts', icon: 'trophy' },
+];
 function renderMilestones() {
   mount(document.getElementById('milestones'), MILESTONES.map((m) => el('div', { class: `milestone${hist.length >= m.n ? ' is-done' : ''}` },
     icon(hist.length >= m.n ? 'checkCircle' : m.icon), el('div', null, el('strong', null, m.label), el('small', null, hist.length >= m.n ? 'Completed' : `${m.n - hist.length} to go`)))));
@@ -84,7 +82,7 @@ function renderFavorites() {
 function renderHistory() {
   const wrap = document.getElementById('history-list');
   if (!hist.length) { clear(wrap).append(el('p', { class: 'muted' }, 'No completed workouts yet. Start one from the workout library to see it here.')); return; }
-  clear(wrap).append(...hist.slice(0, 20).map((h) => {
+  clear(wrap).append(hist.slice(0, 20).map((h) => {
     const w = wById.get(h.workoutId);
     return el('div', { class: 'history-item' }, el('div', null, el('strong', null, w ? w.name : h.workoutId), el('small', null, `${h.exercises.length} exercises · ${fmtMinutes(h.durationSec)}`)), el('small', null, fmtDate(h.completedAt)));
   }));

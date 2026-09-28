@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Workout — SHINKAFIT</title>
+<meta name="description" content="Workout details and exercise list.">
+<link rel="canonical" href="https://dannyekusu.github.io/shinkafit/workout.html">
+<meta name="theme-color" content="#101317">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icons/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SHINKAFIT">
+<meta property="og:title" content="Workout — SHINKAFIT">
+<meta property="og:description" content="Workout details and exercise list.">
+<meta property="og:url" content="https://dannyekusu.github.io/shinkafit/workout.html">
+<meta property="og:image" content="https://dannyekusu.github.io/shinkafit/assets/icons/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script>(function(){try{var d=JSON.parse(localStorage.getItem('sf:device')||'{}');var r=document.documentElement;r.setAttribute('data-theme',(d.theme==='light'||d.theme==='dark')?d.theme:'system');if(d.motion==='reduce')r.setAttribute('data-motion','reduce');}catch(e){}})();</script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html"><svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-logo"></use></svg>SHINKAFIT</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="workouts.html" aria-current="page">Workouts</a>
+      <a href="exercises.html">Exercises</a>
+      <a href="routines.html">Routines</a>
+      <a href="timer.html">Timer</a>
+      <a href="progress.html">Progress</a>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="icon-btn" data-search-btn aria-label="Search SHINKAFIT"><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg></button>
+      <button type="button" class="icon-btn" id="theme-toggle" aria-label="Change theme"><svg class="icon" aria-hidden="true"><use href="#i-monitor"></use></svg></button>
+      <div id="account-slot" class="row"></div>
+    </div>
+  </div>
+</header>
+<main id="main">
+<div id="detail"><div class="container section--tight"><div class="skeleton" style="min-height:20rem"></div></div></div>
+</main>
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div>
+      <h2>SHINKAFIT</h2>
+      <p class="muted">WORKOUT. IMPROVE. REPEAT.<br>Free workouts, exercises and routines. No fees for the core app.</p>
+      <p class="disclaimer">SHINKAFIT provides general fitness information and is not medical advice. Talk to a healthcare professional before starting a new exercise program, especially if you are pregnant, injured, or have a health condition. Stop immediately and seek medical care if you feel chest pain, dizziness, or sharp joint pain.</p>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="exercises.html">Exercises</a></li>
+        <li><a href="routines.html">Routines</a></li>
+        <li><a href="timer.html">Timer</a></li>
+        <li><a href="premium.html">Premium</a></li>
+      </ul>
+      <h2 style="margin-top:1rem">Account</h2>
+      <ul>
+        <li><a href="login.html">Log in</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="privacy.html">Privacy &amp; data</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <p class="disclaimer">&copy; <span id="year">2026</span> SHINKAFIT by Danny Ekusu. Built with HTML, CSS and vanilla JavaScript.</p>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<nav class="bottom-nav" aria-label="Primary">
+  <a href="index.html"><svg class="icon" aria-hidden="true"><use href="#i-home"></use></svg>Home</a>
+  <a href="workouts.html" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-dumbbell"></use></svg>Workouts</a>
+  <a href="exercises.html"><svg class="icon" aria-hidden="true"><use href="#i-list"></use></svg>Exercises</a>
+  <a href="timer.html"><svg class="icon" aria-hidden="true"><use href="#i-timer"></use></svg>Timer</a>
+  <a href="progress.html"><svg class="icon" aria-hidden="true"><use href="#i-barChart"></use></svg>Progress</a>
+</nav>
+<script type="module" src="js/app.js"></script>
+<script type="module" src="js/workout-detail.js"></script>
+</body>
+</html>

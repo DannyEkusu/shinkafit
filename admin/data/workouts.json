@@ -1,0 +1,2135 @@
+{
+ "version": 1,
+ "workouts": [
+  {
+   "id": "beginner-full-body-a",
+   "name": "Beginner Full Body A",
+   "description": "A gentle full-body session that teaches the basic squat, push, hinge and core patterns. Ideal for your first weeks.",
+   "difficulty": "Beginner",
+   "type": "Full Body",
+   "goal": "General Fitness",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Chest",
+    "Core"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 25,
+   "durationBucket": "Medium",
+   "exerciseCount": 8,
+   "featured": true,
+   "tags": [
+    "starter",
+    "first workout"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "knee-push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "glute-bridge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bird-dog",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 20,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "beginner-full-body-b",
+   "name": "Beginner Full Body B",
+   "description": "The second beginner session. Alternate it with Full Body A for balanced training.",
+   "difficulty": "Beginner",
+   "type": "Full Body",
+   "goal": "General Fitness",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Back",
+    "Core",
+    "Calves"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 25,
+   "durationBucket": "Medium",
+   "exerciseCount": 8,
+   "featured": false,
+   "tags": [
+    "starter"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "cat-cow",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 8,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "high-knees",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "reverse-lunge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "knee-push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "superman",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dead-bug",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "calf-raise",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "kneeling-hip-flexor-stretch",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": true
+    }
+   ]
+  },
+  {
+   "id": "beginner-conditioning-circuit",
+   "name": "Beginner Conditioning Circuit",
+   "description": "Short timed circuit to build stamina. Move at a pace where you could still hold a conversation.",
+   "difficulty": "Beginner",
+   "type": "Conditioning",
+   "goal": "Conditioning",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Quads",
+    "Core"
+   ],
+   "format": "circuit",
+   "rounds": 3,
+   "restBetweenRounds": 60,
+   "durationMinutes": 10,
+   "durationBucket": "Short",
+   "exerciseCount": 4,
+   "featured": true,
+   "tags": [
+    "cardio",
+    "stamina"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "high-knees",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 20,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "upper-body-basics",
+   "name": "Upper Body Basics",
+   "description": "Simple pushing, pulling and core work using only your bodyweight.",
+   "difficulty": "Beginner",
+   "type": "Upper Body",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Shoulders",
+    "Triceps",
+    "Back"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 20,
+   "durationBucket": "Short",
+   "exerciseCount": 6,
+   "featured": false,
+   "tags": [
+    "push",
+    "posture"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "knee-push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "superman",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bird-dog",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 25,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "thoracic-open-book",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": 6,
+     "seconds": null,
+     "rest": 0,
+     "note": null,
+     "perSide": true
+    }
+   ]
+  },
+  {
+   "id": "lower-body-basics",
+   "name": "Lower Body Basics",
+   "description": "Squats, lunges and bridges to build a strong base for your legs and hips.",
+   "difficulty": "Beginner",
+   "type": "Lower Body",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Hamstrings",
+    "Calves"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 25,
+   "durationBucket": "Medium",
+   "exerciseCount": 7,
+   "featured": false,
+   "tags": [
+    "legs"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "reverse-lunge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "glute-bridge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 15,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "calf-raise",
+     "phase": "main",
+     "sets": 3,
+     "reps": 15,
+     "seconds": null,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "wall-sit",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 20,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "kneeling-hip-flexor-stretch",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": true
+    }
+   ]
+  },
+  {
+   "id": "core-foundations",
+   "name": "Core Foundations",
+   "description": "Controlled core exercises that build trunk stability without straining your neck or back.",
+   "difficulty": "Beginner",
+   "type": "Core",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core",
+    "Back"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 25,
+   "durationBucket": "Medium",
+   "exerciseCount": 7,
+   "featured": true,
+   "tags": [
+    "abs"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "cat-cow",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 8,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dead-bug",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "bird-dog",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 25,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bicycle-crunch",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 35,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "superman",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 35,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "mobility-reset",
+   "name": "Mobility Reset",
+   "description": "A calm 15-minute flow to loosen the hips, spine and shoulders. Good for rest days.",
+   "difficulty": "Beginner",
+   "type": "Mobility",
+   "goal": "Mobility",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Glutes",
+    "Quads",
+    "Shoulders"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 10,
+   "durationBucket": "Short",
+   "exerciseCount": 6,
+   "featured": true,
+   "tags": [
+    "stretch",
+    "recovery",
+    "rest day"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "cat-cow",
+     "phase": "main",
+     "sets": 2,
+     "reps": 8,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "worlds-greatest-stretch",
+     "phase": "main",
+     "sets": 2,
+     "reps": 4,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "thoracic-open-book",
+     "phase": "main",
+     "sets": 2,
+     "reps": 6,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "kneeling-hip-flexor-stretch",
+     "phase": "main",
+     "sets": 2,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "arm-circles",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 45,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "band-full-body",
+   "name": "Resistance Band Full Body",
+   "description": "A full-body session that needs only a resistance band. Perfect for travel or small spaces.",
+   "difficulty": "Beginner",
+   "type": "Full Body",
+   "goal": "General Fitness",
+   "equipment": [
+    "Resistance Bands"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Quads",
+    "Glutes",
+    "Shoulders"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 25,
+   "durationBucket": "Medium",
+   "exerciseCount": 6,
+   "featured": false,
+   "tags": [
+    "band",
+    "travel"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "band-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "band-row",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "band-pull-apart",
+     "phase": "main",
+     "sets": 3,
+     "reps": 15,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "glute-bridge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 12,
+     "seconds": null,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 25,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "bodyweight-strength",
+   "name": "Bodyweight Strength",
+   "description": "Progress your strength using push-ups, single-leg work and core holds.",
+   "difficulty": "Intermediate",
+   "type": "Strength",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Quads",
+    "Glutes",
+    "Core"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 35,
+   "durationBucket": "Medium",
+   "exerciseCount": 9,
+   "featured": true,
+   "tags": [
+    "calisthenics"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 10,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "push-up",
+     "phase": "main",
+     "sets": 4,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "split-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "pike-push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 6,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "single-leg-glute-bridge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "hollow-body-hold",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 20,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "side-plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 25,
+     "rest": 30,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "hiit-conditioning",
+   "name": "Interval Conditioning",
+   "description": "Four rounds of short, hard intervals. Scale each move to keep form clean.",
+   "difficulty": "Intermediate",
+   "type": "Conditioning",
+   "goal": "Conditioning",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Quads",
+    "Core"
+   ],
+   "format": "circuit",
+   "rounds": 4,
+   "restBetweenRounds": 60,
+   "durationMinutes": 15,
+   "durationBucket": "Short",
+   "exerciseCount": 4,
+   "featured": true,
+   "tags": [
+    "hiit",
+    "cardio"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "burpee",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "skater-jump",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "mountain-climber",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "high-knees",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "power-basics",
+   "name": "Power Basics",
+   "description": "Short explosive efforts with long rests. Stay fresh so every rep is fast.",
+   "difficulty": "Intermediate",
+   "type": "Strength",
+   "goal": "Power",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Chest"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 25,
+   "durationBucket": "Medium",
+   "exerciseCount": 7,
+   "featured": false,
+   "tags": [
+    "plyometric"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "high-knees",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "jump-squat",
+     "phase": "main",
+     "sets": 4,
+     "reps": 6,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "broad-jump",
+     "phase": "main",
+     "sets": 4,
+     "reps": 4,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "skater-jump",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 20,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "core-strength",
+   "name": "Core Strength",
+   "description": "Harder core work for people who are comfortable with the basics.",
+   "difficulty": "Intermediate",
+   "type": "Core",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Core"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 20,
+   "durationBucket": "Short",
+   "exerciseCount": 7,
+   "featured": false,
+   "tags": [
+    "abs"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "dead-bug",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 6,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "hollow-body-hold",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 20,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "lying-leg-raise",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "side-plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 25,
+     "rest": 30,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "mountain-climber",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 30,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bicycle-crunch",
+     "phase": "main",
+     "sets": 3,
+     "reps": 16,
+     "seconds": null,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "dumbbell-full-body",
+   "name": "Dumbbell Full Body",
+   "description": "A balanced strength session with one pair of dumbbells.",
+   "difficulty": "Intermediate",
+   "type": "Full Body",
+   "goal": "Strength",
+   "equipment": [
+    "Dumbbells",
+    "Bench or Chair"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Back",
+    "Shoulders",
+    "Hamstrings"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 30,
+   "durationBucket": "Medium",
+   "exerciseCount": 8,
+   "featured": true,
+   "tags": [
+    "dumbbell"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 10,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "goblet-squat",
+     "phase": "main",
+     "sets": 4,
+     "reps": 10,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-row",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "dumbbell-shoulder-press",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-romanian-deadlift",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 40,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "dumbbell-upper-body",
+   "name": "Dumbbell Upper Body",
+   "description": "Pressing, pulling and arm work with dumbbells and a chair.",
+   "difficulty": "Intermediate",
+   "type": "Upper Body",
+   "goal": "Strength",
+   "equipment": [
+    "Dumbbells",
+    "Bench or Chair"
+   ],
+   "muscleGroups": [
+    "Shoulders",
+    "Back",
+    "Chest",
+    "Biceps",
+    "Triceps"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 30,
+   "durationBucket": "Medium",
+   "exerciseCount": 7,
+   "featured": false,
+   "tags": [
+    "dumbbell",
+    "arms"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-shoulder-press",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-row",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-curl",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bench-dip",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "thoracic-open-book",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": 6,
+     "seconds": null,
+     "rest": 0,
+     "note": null,
+     "perSide": true
+    }
+   ]
+  },
+  {
+   "id": "pull-and-core-bar",
+   "name": "Bar Pull and Core",
+   "description": "Pulling strength on the bar with core tension work.",
+   "difficulty": "Intermediate",
+   "type": "Upper Body",
+   "goal": "Strength",
+   "equipment": [
+    "Pull-Up Bar"
+   ],
+   "muscleGroups": [
+    "Back",
+    "Biceps",
+    "Core"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 30,
+   "durationBucket": "Medium",
+   "exerciseCount": 8,
+   "featured": false,
+   "tags": [
+    "pull-up",
+    "bar"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "cat-cow",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 8,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "pull-up",
+     "phase": "main",
+     "sets": 4,
+     "reps": 5,
+     "seconds": null,
+     "rest": 90,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "chin-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 5,
+     "seconds": null,
+     "rest": 90,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "push-up",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "hollow-body-hold",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 20,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "lying-leg-raise",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "gym-full-body",
+   "name": "Gym Full Body",
+   "description": "A straightforward full-body session for a gym with dumbbells, a bench and a pulldown machine.",
+   "difficulty": "Intermediate",
+   "type": "Full Body",
+   "goal": "Strength",
+   "equipment": [
+    "Dumbbells",
+    "Bench or Chair",
+    "Gym Equipment"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Back",
+    "Quads",
+    "Hamstrings",
+    "Shoulders"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 35,
+   "durationBucket": "Medium",
+   "exerciseCount": 9,
+   "featured": false,
+   "tags": [
+    "gym",
+    "machines"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 10,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "goblet-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-bench-press",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "lat-pulldown",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-romanian-deadlift",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "dumbbell-shoulder-press",
+     "phase": "main",
+     "sets": 3,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 40,
+     "rest": 40,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "cardio-endurance-builder",
+   "name": "Cardio Endurance Builder",
+   "description": "Steady, repeatable cardio moves in four rounds. Keep a pace you can sustain.",
+   "difficulty": "Intermediate",
+   "type": "Cardio",
+   "goal": "Endurance",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Quads",
+    "Calves"
+   ],
+   "format": "circuit",
+   "rounds": 4,
+   "restBetweenRounds": 60,
+   "durationMinutes": 20,
+   "durationBucket": "Short",
+   "exerciseCount": 5,
+   "featured": false,
+   "tags": [
+    "cardio",
+    "stamina"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 45,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "high-knees",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 45,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 45,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "skater-jump",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "mountain-climber",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "lower-body-strength",
+   "name": "Lower Body Strength",
+   "description": "Single-leg strength and glute work for people ready to progress beyond the basics.",
+   "difficulty": "Intermediate",
+   "type": "Lower Body",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Quads",
+    "Glutes",
+    "Hamstrings",
+    "Calves"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 35,
+   "durationBucket": "Medium",
+   "exerciseCount": 7,
+   "featured": false,
+   "tags": [
+    "legs",
+    "unilateral"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 10,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "split-squat",
+     "phase": "main",
+     "sets": 4,
+     "reps": 8,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "single-leg-glute-bridge",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 15,
+     "seconds": null,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "calf-raise",
+     "phase": "main",
+     "sets": 3,
+     "reps": 20,
+     "seconds": null,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "wall-sit",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 40,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "kneeling-hip-flexor-stretch",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 0,
+     "note": null,
+     "perSide": true
+    }
+   ]
+  },
+  {
+   "id": "full-body-endurance-circuit",
+   "name": "Full Body Endurance Circuit",
+   "description": "A longer circuit of strength and cardio moves for building work capacity. Pace yourself.",
+   "difficulty": "Intermediate",
+   "type": "Full Body",
+   "goal": "Endurance",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Chest",
+    "Quads",
+    "Core"
+   ],
+   "format": "circuit",
+   "rounds": 5,
+   "restBetweenRounds": 75,
+   "durationMinutes": 45,
+   "durationBucket": "Long",
+   "exerciseCount": 8,
+   "featured": false,
+   "tags": [
+    "circuit",
+    "endurance"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 45,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "push-up",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "mountain-climber",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "reverse-lunge",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "plank",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "burpee",
+     "phase": "main",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 30,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "advanced-calisthenics-strength",
+   "name": "Advanced Calisthenics Strength",
+   "description": "Demanding skill-based strength work. Take full rests and stop sets before form breaks.",
+   "difficulty": "Advanced",
+   "type": "Strength",
+   "goal": "Strength",
+   "equipment": [
+    "Pull-Up Bar"
+   ],
+   "muscleGroups": [
+    "Chest",
+    "Back",
+    "Quads",
+    "Shoulders",
+    "Core"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 45,
+   "durationBucket": "Long",
+   "exerciseCount": 11,
+   "featured": true,
+   "tags": [
+    "skills",
+    "calisthenics"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "arm-circles",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 30,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "cat-cow",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": 8,
+     "seconds": null,
+     "rest": 10,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "warmup",
+     "sets": 2,
+     "reps": 10,
+     "seconds": null,
+     "rest": 20,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "archer-push-up",
+     "phase": "main",
+     "sets": 4,
+     "reps": 4,
+     "seconds": null,
+     "rest": 90,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "pistol-squat",
+     "phase": "main",
+     "sets": 3,
+     "reps": 4,
+     "seconds": null,
+     "rest": 90,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "pull-up",
+     "phase": "main",
+     "sets": 4,
+     "reps": 8,
+     "seconds": null,
+     "rest": 90,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "wall-handstand-hold",
+     "phase": "main",
+     "sets": 4,
+     "reps": null,
+     "seconds": 25,
+     "rest": 90,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "hollow-body-hold",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 30,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "lying-leg-raise",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "worlds-greatest-stretch",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": 4,
+     "seconds": null,
+     "rest": 0,
+     "note": null,
+     "perSide": true
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 45,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  },
+  {
+   "id": "advanced-power-conditioning",
+   "name": "Advanced Power and Conditioning",
+   "description": "Explosive work followed by a conditioning finisher. Keep landings soft and stop if you lose control.",
+   "difficulty": "Advanced",
+   "type": "Conditioning",
+   "goal": "Power",
+   "equipment": [
+    "No Equipment"
+   ],
+   "muscleGroups": [
+    "Full Body",
+    "Chest",
+    "Quads"
+   ],
+   "format": "straight",
+   "rounds": 1,
+   "restBetweenRounds": 0,
+   "durationMinutes": 35,
+   "durationBucket": "Medium",
+   "exerciseCount": 8,
+   "featured": false,
+   "tags": [
+    "plyometric",
+    "power"
+   ],
+   "blocks": [
+    {
+     "exerciseId": "jumping-jack",
+     "phase": "warmup",
+     "sets": 1,
+     "reps": null,
+     "seconds": 40,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bodyweight-squat",
+     "phase": "warmup",
+     "sets": 2,
+     "reps": 10,
+     "seconds": null,
+     "rest": 15,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "explosive-push-up",
+     "phase": "main",
+     "sets": 4,
+     "reps": 5,
+     "seconds": null,
+     "rest": 90,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "jump-squat",
+     "phase": "main",
+     "sets": 4,
+     "reps": 8,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "broad-jump",
+     "phase": "main",
+     "sets": 4,
+     "reps": 5,
+     "seconds": null,
+     "rest": 75,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "burpee",
+     "phase": "main",
+     "sets": 3,
+     "reps": 10,
+     "seconds": null,
+     "rest": 60,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "bear-crawl",
+     "phase": "main",
+     "sets": 3,
+     "reps": null,
+     "seconds": 30,
+     "rest": 45,
+     "note": null,
+     "perSide": false
+    },
+    {
+     "exerciseId": "childs-pose",
+     "phase": "cooldown",
+     "sets": 1,
+     "reps": null,
+     "seconds": 45,
+     "rest": 0,
+     "note": null,
+     "perSide": false
+    }
+   ]
+  }
+ ]
+}

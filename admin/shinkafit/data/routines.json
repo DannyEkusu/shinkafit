@@ -1,0 +1,717 @@
+{
+ "version": 1,
+ "routines": [
+  {
+   "id": "beginner-full-body-3day",
+   "name": "Beginner Full Body Week",
+   "description": "Two full-body sessions and one light conditioning circuit, with a mobility day. Recommended for anyone new to training.",
+   "level": "Beginner",
+   "goal": "General Fitness",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 4,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 18,
+   "timeBucket": "Up to 20 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "beginner-full-body-a"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "beginner-full-body-b"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "beginner-conditioning-circuit"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "beginner-conditioning-plan",
+   "name": "Beginner Conditioning Plan",
+   "description": "Build stamina with short circuits and a core session. Rest days sit between the harder days.",
+   "level": "Beginner",
+   "goal": "Conditioning",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 4,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 14,
+   "timeBucket": "Up to 20 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "beginner-conditioning-circuit"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "core-foundations"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "beginner-conditioning-circuit"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "bodyweight-strength-week",
+   "name": "Bodyweight Strength Week",
+   "description": "Repeat strength sessions with lower-body work in the middle of the week. No equipment needed.",
+   "level": "Intermediate",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 6,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 26,
+   "timeBucket": "20-40 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "bodyweight-strength"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "lower-body-basics"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "bodyweight-strength"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "dumbbell-strength-week",
+   "name": "Dumbbell Strength Week",
+   "description": "Full-body and upper-body sessions with a pair of dumbbells.",
+   "level": "Intermediate",
+   "goal": "Strength",
+   "equipment": [
+    "Dumbbells",
+    "Bench or Chair"
+   ],
+   "weeks": 6,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 25,
+   "timeBucket": "20-40 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "dumbbell-full-body"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "dumbbell-upper-body"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "dumbbell-full-body"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "gym-strength-week",
+   "name": "Gym Strength Week",
+   "description": "Three full-body gym sessions with a mobility day for recovery.",
+   "level": "Intermediate",
+   "goal": "Strength",
+   "equipment": [
+    "Dumbbells",
+    "Bench or Chair",
+    "Gym Equipment"
+   ],
+   "weeks": 6,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 29,
+   "timeBucket": "20-40 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "gym-full-body"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "gym-full-body"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "gym-full-body"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "mobility-week",
+   "name": "Mobility Week",
+   "description": "Four short mobility sessions to loosen up and support your other training.",
+   "level": "Beginner",
+   "goal": "Mobility",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 4,
+   "daysPerWeek": 4,
+   "trainingDays": 0,
+   "minutesPerSession": 10,
+   "timeBucket": "Up to 20 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 6,
+     "workoutId": null
+    },
+    {
+     "day": 7,
+     "workoutId": "mobility-reset"
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "core-builder",
+   "name": "Core Builder",
+   "description": "Two core sessions per week, moving from foundations to harder holds, plus mobility.",
+   "level": "Beginner",
+   "goal": "Strength",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 4,
+   "daysPerWeek": 3,
+   "trainingDays": 2,
+   "minutesPerSession": 18,
+   "timeBucket": "Up to 20 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "core-foundations"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": null
+    },
+    {
+     "day": 4,
+     "workoutId": "core-strength"
+    },
+    {
+     "day": 5,
+     "workoutId": null
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "general-fitness-week",
+   "name": "General Fitness Week",
+   "description": "A balanced week of strength, intervals and core work with mobility.",
+   "level": "Intermediate",
+   "goal": "General Fitness",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 6,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 20,
+   "timeBucket": "Up to 20 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "bodyweight-strength"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "hiit-conditioning"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "core-strength"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "band-anywhere-week",
+   "name": "Band Anywhere Week",
+   "description": "Three band-only sessions and a mobility day. Good for travel or small spaces.",
+   "level": "Beginner",
+   "goal": "General Fitness",
+   "equipment": [
+    "Resistance Bands"
+   ],
+   "weeks": 4,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 21,
+   "timeBucket": "20-40 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "band-full-body"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "band-full-body"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "band-full-body"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "advanced-calisthenics-week",
+   "name": "Advanced Calisthenics Week",
+   "description": "Two hard skill-strength sessions, one pulling day and mobility. Plenty of recovery built in.",
+   "level": "Advanced",
+   "goal": "Strength",
+   "equipment": [
+    "Pull-Up Bar"
+   ],
+   "weeks": 8,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 32,
+   "timeBucket": "20-40 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "advanced-calisthenics-strength"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "pull-and-core-bar"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "advanced-calisthenics-strength"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "With advanced sessions, treat the rest days as part of the plan, not a break from it.",
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "cardio-endurance-week",
+   "name": "Cardio Endurance Week",
+   "description": "Build stamina with two cardio sessions and a longer endurance circuit, spaced with rest days.",
+   "level": "Intermediate",
+   "goal": "Endurance",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 6,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 24,
+   "timeBucket": "20-40 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "cardio-endurance-builder"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "full-body-endurance-circuit"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "cardio-endurance-builder"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  },
+  {
+   "id": "power-conditioning-week",
+   "name": "Power and Conditioning Week",
+   "description": "Two power sessions and one interval day. Rest fully between explosive sets.",
+   "level": "Intermediate",
+   "goal": "Power",
+   "equipment": [
+    "No Equipment"
+   ],
+   "weeks": 6,
+   "daysPerWeek": 4,
+   "trainingDays": 3,
+   "minutesPerSession": 19,
+   "timeBucket": "Up to 20 min",
+   "schedule": [
+    {
+     "day": 1,
+     "workoutId": "power-basics"
+    },
+    {
+     "day": 2,
+     "workoutId": null
+    },
+    {
+     "day": 3,
+     "workoutId": "hiit-conditioning"
+    },
+    {
+     "day": 4,
+     "workoutId": null
+    },
+    {
+     "day": 5,
+     "workoutId": "power-basics"
+    },
+    {
+     "day": 6,
+     "workoutId": "mobility-reset"
+    },
+    {
+     "day": 7,
+     "workoutId": null
+    }
+   ],
+   "notes": {
+    "recovery": [
+     "Keep at least one full rest day each week and avoid training the same muscles hard on consecutive days.",
+     "Sleep, food and easy walking do more for your progress than adding extra sessions."
+    ],
+    "progression": [
+     "Stay with the same workouts until the last set of each exercise feels comfortable for two sessions in a row.",
+     "Then add one or two reps, or one more set, to one or two exercises. Change one thing at a time."
+    ],
+    "safety": [
+     "Stop if you feel sharp pain, dizziness or chest discomfort, and seek medical advice.",
+     "Talk to a healthcare professional before starting if you have a health condition, injury or are pregnant."
+    ]
+   }
+  }
+ ]
+}

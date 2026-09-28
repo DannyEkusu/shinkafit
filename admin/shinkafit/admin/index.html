@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Admin Dashboard — SHINKAFIT</title>
+<meta name="description" content="SHINKAFIT admin analytics dashboard.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="../assets/icons/icon.svg" type="image/svg+xml">
+<script>(function(){try{var d=JSON.parse(localStorage.getItem('sf:device')||'{}');var r=document.documentElement;r.setAttribute('data-theme',(d.theme==='light'||d.theme==='dark')?d.theme:'system');}catch(e){}})();</script>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/pages.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<main id="main">
+  <div class="container">
+    <div class="admin-header">
+      <svg class="brand__mark" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px"><use href="#i-logo"></use></svg>
+      <h1>SHINKAFIT Admin</h1>
+      <span class="badge badge--muted">Internal</span>
+      <div class="row">
+        <a class="btn btn--ghost btn--sm" href="../index.html">Back to site</a>
+        <button class="btn btn--secondary btn--sm" type="button" id="admin-logout" hidden>Log out</button>
+      </div>
+    </div>
+
+    <div id="gate" class="gate" hidden></div>
+
+    <div id="dashboard" hidden>
+      <div class="admin-grid" id="stat-cards"></div>
+
+      <div class="panel section--tight">
+        <div class="row row--between"><h2>Daily activity (last 30 days)</h2></div>
+        <div id="activity-chart"><div class="skeleton" style="min-height:180px"></div></div>
+        <div class="chart-legend">
+          <span><i style="background:var(--primary)"></i>New users</span>
+          <span><i style="background:var(--secondary)"></i>Workouts completed</span>
+          <span><i style="background:var(--accent)"></i>Active devices</span>
+        </div>
+      </div>
+
+      <div class="admin-grid section--tight">
+        <div class="panel">
+          <h2>Most viewed workouts</h2>
+          <div id="top-workouts-viewed"></div>
+        </div>
+        <div class="panel">
+          <h2>Most completed workouts</h2>
+          <div id="top-workouts-completed"></div>
+        </div>
+        <div class="panel">
+          <h2>Most viewed exercises</h2>
+          <div id="top-exercises-viewed"></div>
+        </div>
+        <div class="panel">
+          <h2>Most favorited items</h2>
+          <div id="top-favorites"></div>
+        </div>
+        <div class="panel">
+          <h2>Search activity by page</h2>
+          <div id="search-terms"></div>
+        </div>
+      </div>
+
+      <div class="panel section--tight">
+        <h2>How to grant admin access</h2>
+        <p class="muted">Admin access is granted only from the Supabase SQL editor, never from this app. After someone signs up, run:</p>
+        <pre class="mono" style="overflow-x:auto;background:var(--surface-2);padding:1rem;border-radius:8px">select promote_to_admin('their-email@example.com');</pre>
+      </div>
+    </div>
+  </div>
+</main>
+<script type="module" src="js/admin.js"></script>
+</body>
+</html>

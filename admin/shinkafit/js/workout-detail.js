@@ -3,46 +3,13 @@ import { el, icon, mount, clear, levelBadge, cleanId, getParam, errorState, fmtM
 import { favoriteButton } from './favorites.js';
 import { track } from './analytics.js';
 
-/* must be declared before render() runs at the bottom of module start-up */
-const PHASE_LABEL = { warmup: 'Warm-up', main: 'Main workout', cooldown: 'Cool-down' };
-
 const root = document.getElementById('detail');
 const id = cleanId(getParam('id'));
-
-/* Load only exercises.json + workouts.json directly (not api.getCatalog(), which also
- * loads routines.json — this page never uses routine data, so it must not fail to render
- * just because an unrelated file has a problem). */
-let workouts, exById, wById, w;
-try {
-  const [exData, wkData] = await Promise.all([api.loadExercises(), api.loadWorkouts()]);
-  exById = new Map(exData.exercises.map((x) => [x.id, x]));
-  workouts = wkData.workouts;
-  wById = new Map(workouts.map((x) => [x.id, x]));
-  w = id ? wById.get(id) : null;
-} catch (err) {
-  console.error('Failed to load workout data', err);
-  clear(root).append(errorState({
-    title: 'Could not load this workout',
-    text: 'The workout data failed to load. Check your connection and try again.',
-    onRetry: () => location.reload(),
-  }));
-  throw err;
-}
+const { workouts, exById, wById } = await api.getCatalog();
+const w = id ? wById.get(id) : null;
 
 if (!w) {
-  /* Unknown id: never leave an empty page. List real workouts whose id (or name) starts with
-   * what was asked for, e.g. ?id=beginner-full-body -> Beginner Full Body A and B. These are
-   * genuine workouts from workouts.json, not aliases. */
-  const asked = id || '';
-  const near = asked ? workouts.filter((x) => x.id.startsWith(asked) || asked.startsWith(x.id) || x.id.includes(asked)) : [];
-  clear(root).append(errorState({
-    title: 'Workout not found',
-    text: near.length ? "We couldn't find that exact workout. Did you mean one of these?" : "This workout doesn't exist or may have been removed.",
-    actions: [
-      ...near.slice(0, 4).map((x) => el('a', { class: 'btn btn--secondary', href: `workout.html?id=${x.id}` }, x.name)),
-      el('a', { class: 'btn', href: 'workouts.html' }, 'Browse all workouts'),
-    ],
-  }));
+  clear(root).append(errorState({ title: 'Workout not found', text: "This workout doesn't exist or may have been removed.", actions: [el('a', { class: 'btn', href: 'workouts.html' }, 'Browse all workouts')] }));
 } else {
   document.title = `${w.name} — SHINKAFIT`;
   document.querySelector('meta[name="description"]')?.setAttribute('content', w.description);
@@ -50,6 +17,7 @@ if (!w) {
   track('workout_viewed', { item_id: w.id, item_type: 'workout', difficulty: w.difficulty });
 }
 
+const PHASE_LABEL = { warmup: 'Warm-up', main: 'Main workout', cooldown: 'Cool-down' };
 
 function blockRow(b) {
   const ex = exById.get(b.exerciseId);
