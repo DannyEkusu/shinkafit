@@ -1,46 +1,28 @@
-/* Homepage: today's workout preview, progress preview, live counts, featured cards. */
+/* Homepage: today's workout suggestion (history-aware) + progress preview. */
 import * as api from './api.js';
 import { getFavorites } from './favorites.js';
-import { el, icon, mount, levelBadge, fmtMinutes, isoDow, clear, skeletons, tickStrip, dayKey, DOW_SHORT } from './ui.js';
+import { el, icon, mount, levelBadge, fmtMinutes, isoDow, clear, tickStrip, dayKey, DOW_SHORT } from './ui.js';
 
 const catalog = await api.getCatalog().catch(() => null);
-const featuredWrap = document.getElementById('featured-workouts');
-const catTiles = document.getElementById('category-tiles');
 const todayCard = document.getElementById('today-card');
 const progressPreview = document.getElementById('progress-preview');
 
 if (!catalog) {
-  if (featuredWrap) clear(featuredWrap).append(el('p', { class: 'muted' }, 'Could not load workouts right now. Check your connection and reload.'));
+  if (todayCard) clear(todayCard).append(el('p', { class: 'muted' }, 'Could not load workouts right now. Check your connection and reload.'));
 } else {
-  renderFeatured();
-  renderCategories();
   renderToday();
   renderProgressPreview();
 }
 
-function workoutCard(w) {
-  return el('a', { class: 'card', 'data-level': w.difficulty, href: `workout.html?id=${w.id}` },
-    el('div', { class: 'card__top' }, el('h3', null, w.name), levelBadge(w.difficulty)),
-    el('p', null, w.description),
-    el('div', { class: 'card__meta' },
-      el('span', null, icon('clock'), fmtMinutes(w.durationMinutes * 60)),
-      el('span', null, icon('list'), `${w.exerciseCount} exercises`),
-      el('span', null, icon('target'), w.goal)));
-}
-
-function renderFeatured() {
-  if (!featuredWrap) return;
-  const list = catalog.workouts.filter((w) => w.featured).slice(0, 6);
-  clear(featuredWrap).append(list.map(workoutCard));
-}
-
-function renderCategories() {
-  if (!catTiles) return;
-  const types = [...new Set(catalog.workouts.map((w) => w.type))];
-  clear(catTiles).append(types.map((t) => el('a', { class: 'tile', href: `workouts.html?type=${encodeURIComponent(t)}` },
-    t, el('small', null, catalog.workouts.filter((w) => w.type === t).length))));
-}
-
+/* Suggestion priority:
+ *   1. An explicit plan for today (weekly slot or active routine's schedule) always wins.
+ *   2. With enough real history (3+ completed workouts), look at the type/goal the person
+ *      has actually been training most in their last 10 sessions, and suggest something in
+ *      that vein — never the exact workout they just finished.
+ *   3. Otherwise (new user, or no clear pattern yet), pick randomly from a level chosen at
+ *      random across Beginner/Intermediate/Advanced, favouring their favorites if they have
+ *      any. Nothing here is hard-coded to one workout, and nothing here invents history that
+ *      didn't happen — nothing is read except api.getHistory()'s real, recorded entries. */
 function pickTodayWorkout() {
   const plan = api.getPlan();
   const dow = isoDow();
@@ -51,10 +33,31 @@ function pickTodayWorkout() {
     const sched = r.schedule.find((s) => s.day === dow && s.workoutId);
     if (sched) return { workout: catalog.wById.get(sched.workoutId), fromPlan: true };
   }
+
+  const pickFrom = (arr) => arr[Math.floor(Math.random() * arr.length)];
+  const hist = api.getHistory();
+
+  if (hist.length >= 3) {
+    const recent = hist.slice(-10);
+    const lastId = hist[hist.length - 1].workoutId;
+    const typeCounts = {}, goalCounts = {};
+    for (const h of recent) {
+      const w = catalog.wById.get(h.workoutId);
+      if (!w) continue;
+      typeCounts[w.type] = (typeCounts[w.type] || 0) + 1;
+      goalCounts[w.goal] = (goalCounts[w.goal] || 0) + 1;
+    }
+    const topType = Object.entries(typeCounts).sort((a, b) => b[1] - a[1])[0]?.[0];
+    const topGoal = Object.entries(goalCounts).sort((a, b) => b[1] - a[1])[0]?.[0];
+    const candidates = catalog.workouts.filter((w) => w.id !== lastId && (w.type === topType || w.goal === topGoal));
+    if (candidates.length) return { workout: pickFrom(candidates), fromPlan: false, source: 'history' };
+  }
+
   const favWorkouts = getFavorites('workout').map((f) => catalog.wById.get(f.id)).filter(Boolean);
-  if (favWorkouts.length) return { workout: favWorkouts[dow % favWorkouts.length], fromPlan: false };
-  const featured = catalog.workouts.filter((w) => w.featured);
-  return { workout: featured[dow % featured.length] || catalog.workouts[0], fromPlan: false };
+  const pool = favWorkouts.length ? favWorkouts : catalog.workouts;
+  const levels = ['Beginner', 'Intermediate', 'Advanced'];
+  const inLevel = pool.filter((w) => w.difficulty === levels[Math.floor(Math.random() * levels.length)]);
+  return { workout: pickFrom(inLevel.length ? inLevel : pool), fromPlan: false, source: favWorkouts.length ? 'favorites' : 'balanced' };
 }
 
 function renderToday() {

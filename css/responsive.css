@@ -3,6 +3,16 @@
    Base styles above target the narrowest screens; these add layout upward.
    ========================================================================== */
 
+/* mobile header: the header has a fixed height and its content must never wrap onto a
+ * second line, or it visually spills over the page content below. On phones there isn't
+ * room for search + theme-toggle + full Log in/Sign up buttons alongside the brand, so the
+ * theme toggle (still reachable from Settings) steps aside and the account buttons tighten up. */
+@media (max-width: 479px) {
+  #theme-toggle { display: none; }
+  .header-actions { gap: 0.35rem; }
+  #account-slot .btn { padding: 0.3rem 0.55rem; font-size: 0.78rem; min-height: 34px; }
+}
+
 /* very small phones (320px) */
 @media (max-width: 359px) {
   :root { --fs-base: 0.96rem; }
@@ -13,6 +23,9 @@
   .plan-row { grid-template-columns: 3.4rem 1fr; }
   .cal-day small { display: none; }
   .brand { font-size: 0.95rem; letter-spacing: 0.04em; }
+  .brand__mark { width: 24px; height: 24px; }
+  .header-actions { gap: 0.25rem; }
+  #account-slot .btn { padding: 0.28rem 0.45rem; font-size: 0.74rem; }
 }
 
 /* large phones and small tablets */
