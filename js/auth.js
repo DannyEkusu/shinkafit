@@ -113,14 +113,30 @@ export async function requestPasswordReset(email) {
 }
 
 /* the reset e-mail link returns to login.html#access_token=…&type=recovery */
-export function consumeRecoveryHash() {
-  if (!location.hash.includes('access_token')) return false;
+/* Consumes the URL fragment Supabase redirects back to the site with after an email link is
+ * clicked. Two real cases reach here through login.html (both configured via redirectTo() calls
+ * above): type=recovery from requestPasswordReset(), and type=signup from signUp() when "Confirm
+ * email" is enabled (Supabase's default for new projects) -- without handling the latter, a user
+ * who clicks their confirmation email lands back on the site with a valid session sitting unused
+ * in the URL and is never actually signed in. Returns the type consumed, or null. */
+export async function consumeAuthHash() {
+  if (!location.hash.includes('access_token')) return null;
   const p = new URLSearchParams(location.hash.slice(1));
-  if (p.get('type') !== 'recovery' || !p.get('access_token')) return false;
-  store.set(KEY, { access_token: p.get('access_token'), refresh_token: p.get('refresh_token') || '',
-    expires_at: Math.floor(Date.now() / 1000) + Number(p.get('expires_in') || 3600), user: { id: '', email: '', name: '' }, recovery: true });
+  const type = p.get('type');
+  const accessToken = p.get('access_token');
+  if (!accessToken || !['recovery', 'signup', 'email_change', 'magiclink'].includes(type)) return null;
   history.replaceState(null, '', location.pathname + location.search);
-  return true;
+  const base = { access_token: accessToken, refresh_token: p.get('refresh_token') || '',
+    expires_at: Math.floor(Date.now() / 1000) + Number(p.get('expires_in') || 3600) };
+  if (type === 'recovery') { store.set(KEY, { ...base, user: { id: '', email: '', name: '' }, recovery: true }); return type; }
+  /* signup / email_change / magiclink: this is a real, immediately-usable login -- fetch the
+   * real user record so currentUser(), the account menu, and sync all work right away, the
+   * same as a normal sign-in, instead of sitting in the restricted placeholder used above. */
+  try {
+    const u = await call('/user', { method: 'GET', token: accessToken });
+    store.set(KEY, { ...base, user: { id: u.id, email: u.email, name: u.user_metadata?.display_name || '' } });
+  } catch { store.set(KEY, { ...base, user: { id: '', email: '', name: '' } }); }
+  return type;
 }
 
 export async function updatePassword(newPassword) {

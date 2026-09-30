@@ -12,8 +12,14 @@ const resetBox = document.getElementById('reset-box');
 
 if (!auth.isConfigured()) { notConfigured.hidden = false; form.hidden = true; }
 
-if (new URLSearchParams(location.search).get('mode') === 'reset' || location.hash.includes('type=recovery')) {
-  if (auth.consumeRecoveryHash()) { location.replace('settings.html#password'); }
+const authType = await auth.consumeAuthHash();
+if (authType === 'recovery') {
+  location.replace('settings.html#password');
+} else if (authType) {
+  await onLogin();
+  track('login');
+  announce('Logged in');
+  location.href = new URLSearchParams(location.search).get('next') || 'index.html';
 }
 
 form?.addEventListener('submit', async (e) => {
