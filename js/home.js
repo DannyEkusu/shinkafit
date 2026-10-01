@@ -3,6 +3,11 @@ import * as api from './api.js';
 import { getFavorites } from './favorites.js';
 import { el, icon, mount, levelBadge, fmtMinutes, isoDow, clear, tickStrip, dayKey, DOW_SHORT } from './ui.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 const catalog = await api.getCatalog().catch(() => null);
 const todayCard = document.getElementById('today-card');
 const progressPreview = document.getElementById('progress-preview');
@@ -92,3 +97,5 @@ function renderProgressPreview() {
     el('p', { class: 'muted', style: { marginTop: '0.75rem', marginBottom: 0 } }, `${hist.length} workout${hist.length === 1 ? '' : 's'} completed all-time.`),
     el('a', { class: 'btn btn--secondary btn--sm', href: 'progress.html', style: { marginTop: '0.75rem' } }, 'View full progress'));
 }
+
+})();

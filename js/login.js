@@ -3,6 +3,11 @@ import { onLogin } from './api.js';
 import { el, icon, toast, setBusy, announce } from './ui.js';
 import { track } from './analytics.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 const form = document.getElementById('login-form');
 const errBox = document.getElementById('login-error');
 const notConfigured = document.getElementById('not-configured');
@@ -48,3 +53,5 @@ resetForm?.addEventListener('submit', async (e) => {
   catch (err) { toast(err.message || 'Could not send reset email.', { type: 'error' }); }
   finally { setBusy(btn, false); }
 });
+
+})();

@@ -3,6 +3,11 @@ import { el, icon, mount, clear, levelBadge, cleanId, getParam, errorState, fmtM
 import { favoriteButton } from './favorites.js';
 import { track } from './analytics.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 /* must be declared before render() runs at the bottom of module start-up */
 const PHASE_LABEL = { warmup: 'Warm-up', main: 'Main workout', cooldown: 'Cool-down' };
 
@@ -86,3 +91,5 @@ async function sharePage() {
   if (navigator.share) { try { await navigator.share(data); } catch { /* cancelled */ } }
   else { await navigator.clipboard.writeText(location.href); const { toast } = await import('./ui.js'); toast('Link copied to clipboard'); }
 }
+
+})();

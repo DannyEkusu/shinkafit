@@ -5,6 +5,11 @@ import { el, icon, levelBadge, fmtMinutes, getParam, errorState, clear } from '.
 import { favoriteButton } from './favorites.js';
 import { track } from './analytics.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 const mountEl = document.getElementById('library');
 
 /* Load workouts.json + exercises.json directly (not api.getCatalog(), which also loads
@@ -70,3 +75,5 @@ mountLibrary({
   renderCard: workoutCard,
   onSearch: (q, n) => track('search', { source: 'workouts', result_count: n }),
 });
+
+})();

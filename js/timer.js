@@ -8,6 +8,11 @@ import { el, icon, mount, clear, fmtClock, cleanId, getParam, toast, announce, s
 import { completionNotify } from './notifications.js';
 import { track } from './analytics.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 const root = document.getElementById('timer-root');
 const { exById, wById, rById } = await api.getCatalog();
 
@@ -245,3 +250,5 @@ function runSession(sess) {
 }
 
 if (!session) manualSetup(); else runSession(session);
+
+})();

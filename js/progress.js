@@ -2,6 +2,11 @@ import * as api from './api.js';
 import { getFavorites } from './favorites.js';
 import { el, icon, mount, clear, fmtMinutes, dayKey, isoDow, DOW_SHORT, DOW_NAMES, tickStrip, ring, plural, fmtDate, download } from './ui.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 /* declared before the render calls below run at module start-up */
 const MILESTONES = [
   { n: 1, label: 'First workout', icon: 'checkCircle' }, { n: 5, label: '5 workouts', icon: 'target' },
@@ -94,3 +99,5 @@ function wireExport() {
   const btn = document.getElementById('export-btn');
   if (btn) btn.addEventListener('click', () => download('shinkafit-data.json', JSON.stringify(api.exportAll(), null, 2)));
 }
+
+})();

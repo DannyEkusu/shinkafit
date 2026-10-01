@@ -5,6 +5,11 @@ import { logExercise } from './api.js';
 import { toast } from './ui.js';
 import { track } from './analytics.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 const root = document.getElementById('detail');
 const id = cleanId(getParam('id'));
 
@@ -78,3 +83,5 @@ function render(e) {
       el('div', { class: 'card-grid' }, related().map((r) => el('a', { class: 'card', 'data-level': r.difficulty, href: `exercise.html?id=${r.id}` }, el('h3', null, r.name), el('p', null, r.muscleGroups.join(', ')))))) : null);
 }
 function fact(k, v) { return el('div', { class: 'fact' }, el('dt', null, k), el('dd', null, v)); }
+
+})();

@@ -5,6 +5,11 @@ import { el, icon, levelBadge } from './ui.js';
 import { favoriteButton } from './favorites.js';
 import { track } from './analytics.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 const { routines, meta } = await api.getCatalog();
 
 function card(r) {
@@ -34,3 +39,5 @@ mountLibrary({
   renderCard: card,
   onSearch: (q, n) => track('search', { source: 'routines', result_count: n }),
 });
+
+})();

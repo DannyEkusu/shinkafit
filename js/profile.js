@@ -2,6 +2,11 @@ import * as api from './api.js';
 import { isLoggedIn, currentUser, onAuthChange } from './auth.js';
 import { el, icon, mount, chipGroup, getChecked, toast, setBusy } from './ui.js';
 
+/* wrapped in an async IIFE instead of using top-level await, which Safari < 15
+ * (Sept 2021) does not support at all -- an unsupported top-level await fails the
+ * entire module silently, with no console error, producing an unexplained blank
+ * page. This is functionally identical; only the syntax used to reach it changes. */
+(async () => {
 const { meta } = await api.getCatalog();
 const guestNotice = document.getElementById('guest-notice');
 const form = document.getElementById('profile-form');
@@ -36,3 +41,5 @@ form.addEventListener('submit', (e) => {
   });
   setTimeout(() => { setBusy(btn, false); toast('Profile saved', { type: 'success' }); }, 250);
 });
+
+})();
