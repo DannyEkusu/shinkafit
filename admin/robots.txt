@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin/
-
-Sitemap: https://dannyekusu.github.io/shinkafit/sitemap.xml
